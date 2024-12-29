@@ -19,7 +19,7 @@ nlohmann/json - biblioteka do obsługi JSON
 Klonowanie repozytorium:
 
 sh
-git clone https://github.com/your-repo/milionerzy-pollub.git
+git clone https://github.com/mateuszwalo/Milionerzy_Pollub.git
 cd milionerzy-pollub
 
 ### Kompilacja:
