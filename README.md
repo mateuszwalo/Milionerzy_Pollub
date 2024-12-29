@@ -60,5 +60,5 @@ Wygrana:
 
 Kontynuuj odpowiadanie na pytania, aż osiągniesz maksymalną liczbę punktów. Powodzenia!
 ### 📞 Kontakt
-- **Mateusz Walo** - [LinkedIn](https://www.linkedin.com/in/mateuszwalo/)
+- **Mateusz Walo** - [LinkedIn](https://www.linkedin.com/in/mateuszwalo/)  
 🎉 Dziękujemy za korzystanie z "Milionerzy Pollub"! Powodzenia i baw się dobrze! 🎉
