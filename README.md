@@ -1,30 +1,41 @@
 ## 🎉 Milionerzy Pollub 🎉
+
+---
+
 ### 📋 Opis Projektu
+
 "Milionerzy Pollub" to gra quizowa inspirowana popularnym teleturniejem "Milionerzy". Celem gry jest odpowiedzenie na serię pytań, aby zdobyć jak najwięcej punktów. Gra zawiera różne poziomy trudności i koła ratunkowe, które pomagają graczom w trudnych sytuacjach.
 
 ### 🚀 Funkcje
-Wybór poziomu trudności: Łatwy, Średni, Trudny
-Koła ratunkowe: 50/50, Telefon do przyjaciela
-System punktacji
-Wielolinijkowe pytania
+
+- **Wybór poziomu trudności:** Łatwy, Średni, Trudny
+- **Koła ratunkowe:** 50/50, Telefon do przyjaciela
+- **System punktacji**
+- **Wielolinijkowe pytania**
+
 ### 👨‍💻 Zespół
-Mateusz Walo - 🧠 Programowanie, integracja funkcji, Logika gry
-Oskar Wilkos - 🎨 Grafika, wygląd interfejsu, funkcjonalnośc przycisków
-Igor Kozak - 🔧 Logika gry, pytania
+
+- **Mateusz Walo** - 🧠 Programowanie, integracja funkcji, logika gry
+- **Oskar Wilkos** - 🎨 Grafika, wygląd interfejsu, funkcjonalność przycisków
+- **Igor Kozak** - 🔧 Logika gry, pytania
 
 ### 🛠️ Wymagania
-wxWidgets - biblioteka do tworzenia GUI
-nlohmann/json - biblioteka do obsługi JSON
-🚀 Instalacja i Uruchomienie
-Klonowanie repozytorium:
 
-sh
-git clone https://github.com/your-repo/milionerzy-pollub.git
+- **wxWidgets** - biblioteka do tworzenia GUI
+- **nlohmann/json** - biblioteka do obsługi JSON
+
+### 🚀 Instalacja i Uruchomienie
+
+#### Klonowanie repozytorium:
+
+```sh
+git clone https://github.com/mateuszwalo/Milionerzy_Pollub.git
 cd milionerzy-pollub
 
+```
 ### Kompilacja:
 
-Code::Blocks:
+**Code::Blocks:**
 
 Otwórz projekt w Code::Blocks.
 Skonfiguruj projekt dla trybu Debug i Release.
@@ -49,8 +60,5 @@ Wygrana:
 
 Kontynuuj odpowiadanie na pytania, aż osiągniesz maksymalną liczbę punktów. Powodzenia!
 ### 📞 Kontakt
-Jeśli masz pytania lub potrzebujesz pomocy, skontaktuj się z nami:
-
-Mateusz Walo - 
+- **Mateusz Walo** - [LinkedIn](https://www.linkedin.com/in/mateuszwalo/)  
 🎉 Dziękujemy za korzystanie z "Milionerzy Pollub"! Powodzenia i baw się dobrze! 🎉
-
