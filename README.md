@@ -1,4 +1,5 @@
 ## 🎉 Milionerzy Pollub 🎉
+![demo](resources/demo.png)
 
 ---
 
