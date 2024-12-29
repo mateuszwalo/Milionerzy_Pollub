@@ -1,160 +1,158 @@
 {
     "pytania": [
         {
-            "tresc": "Ile ECTS ma Analiza matematyczna 1 na IAD?",
-            "odpowiedzi": ["3", "2", "6", "4"],
+            "tresc": "Ile punktów ECTS ma przedmiot Analiza Matematyczna 1 na kierunku IAD?",
+            "odpowiedzi": ["2", "6", "3", "4"],
             "poprawna_odpowiedz": "6"
         },
         {
             "tresc": "Jaka jest wiodąca dyscyplina kierunku IAD?",
-            "odpowiedzi": ["Matematyka", "Nauki Prawne", "Psychologia", "Informatyka techniczna"],
+            "odpowiedzi": ["Informatyka techniczna", "Matematyka", "Psychologia", "Nauki prawne"],
             "poprawna_odpowiedz": "Matematyka"
         },
         {
-            "tresc": "Który przedmiot nie znajduję się w sylabusie IAD",
-            "odpowiedzi": ["Rachunek Prawdopodobieństwa", "Statystyka", "Bazy Danych", "Chemia"],
+            "tresc": "Który przedmiot nie znajduje się w sylabusie kierunku IAD?",
+            "odpowiedzi": ["Bazy danych", "Chemia", "Rachunek prawdopodobienstwa", "Statystyka"],
             "poprawna_odpowiedz": "Chemia"
         },
         {
-            "tresc": "Ile ECTS ma ostani semestr na IAD?",
-            "odpowiedzi": ["20", "25", "40", "30"],
+            "tresc": "Ile punktów ECTS ma ostatni semestr na kierunku IAD?",
+            "odpowiedzi": ["25", "20", "30", "40"],
             "poprawna_odpowiedz": "30"
         },
         {
-            "tresc": "Które z kół istnieje na WMiIT?",
-            "odpowiedzi": ["Atlas", "Maniacy Informatyki", "Globus", "INP"],
+            "tresc": "Które z kół naukowych istnieje na WMiIT?",
+            "odpowiedzi": ["Globus", "Atlas", "Maniacy Informatyki", "INP"],
             "poprawna_odpowiedz": "Atlas"
         },
         {
-            "tresc": "Co rozwijają studenci z koła Atlas?",
-            "odpowiedzi": ["ML i AI", "Psychologię", "AutoCADa", "Matlaba"],
+            "tresc": "Co rozwijają studenci z koła naukowego Atlas?",
+            "odpowiedzi": ["Matlaba", "ML i AI", "Psychologie", "AutoCAD-a"],
             "poprawna_odpowiedz": "ML i AI"
         },
         {
-            "tresc": "Ile istnieje kół na WMiIT?",
-            "odpowiedzi": ["4", "5", "7", "8"],
+            "tresc": "Ile kół naukowych działa na WMiIT?",
+            "odpowiedzi": ["7", "4", "8", "5"],
             "poprawna_odpowiedz": "7"
         },
         {
-            "tresc": "Kto jest przewodniczącym Samorządu Uczniowskiego?",
-            "odpowiedzi": ["Aleksandra Kolęda", "Aleksandra Fliszkiewicz", "Dominika Mazur", "Aleksandra Fuks"],
+            "tresc": "Kto jest przewodniczącym Samorządu Studenckiego?",
+            "odpowiedzi": ["Aleksandra Fuks", "Dominika Mazur", "Aleksandra Fliszkiewicz", "Aleksandra Koleda"],
             "poprawna_odpowiedz": "Aleksandra Fuks"
         },
         {
             "tresc": "Którego kierunku nie ma na WMiIT?",
-            "odpowiedzi": ["IB", "IAD", "OZE", "ETI"],
+            "odpowiedzi": ["ETI", "IB", "OZE", "IAD"],
             "poprawna_odpowiedz": "OZE"
         },
         {
-            "tresc": "Ile semestrów ma I stopień IAD?",
-            "odpowiedzi": ["5", "6", "7", "8"],
+            "tresc": "Ile semestrów ma pierwszy stopień studiów na kierunku IAD?",
+            "odpowiedzi": ["8", "6", "7", "5"],
             "poprawna_odpowiedz": "7"
         },
         {
             "tresc": "Ile jest katedr na WMiIT?",
-            "odpowiedzi": ["5", "6", "4", "3"],
+            "odpowiedzi": ["6", "3", "4", "5"],
             "poprawna_odpowiedz": "5"
         },
         {
-            "tresc": "Który wydział na Pollub jest najmłodszy?",
-            "odpowiedzi": ["WMiIT", "WM", "WIŚ", "WBiA"],
+            "tresc": "Który wydział Politechniki Lubelskiej jest najmłodszy?",
+            "odpowiedzi": ["WM", "WIŚ", "WMiIT", "WBiA"],
             "poprawna_odpowiedz": "WMiIT"
         },
         {
-            "tresc": "Kiedy powstała Politechnika Lubelska?",
-            "odpowiedzi": ["1920", "1980", "1765", "1953"],
+            "tresc": "W którym roku powstała Politechnika Lubelska?",
+            "odpowiedzi": ["1920", "1953", "1765", "1980"],
             "poprawna_odpowiedz": "1953"
         },
         {
             "tresc": "Kiedy obchodzimy święto Politechniki Lubelskiej?",
-            "odpowiedzi": ["20 maja", "13 czerwca", "13 maja", "20 czerwca"],
+            "odpowiedzi": ["20 maja", "13 czerwca", "20 czerwca", "13 maja"],
             "poprawna_odpowiedz": "13 maja"
         },
         {
-            "tresc": "Co oznacza skrót 'RAM'?",
-            "odpowiedzi": ["Random Access Memory", "Read Access Memory", "Realtime Access Memory", "Run Access Memory"],
+            "tresc": "Co oznacza skrót RAM?",
+            "odpowiedzi": ["Random Access Memory", "Realtime Access Memory", "Read Access Memory", "Run Access Memory"],
             "poprawna_odpowiedz": "Random Access Memory"
         },
-
         {
-            "tresc": "Suma kątów wewnętrznych w trókącie wynosi:",
-            "odpowiedzi": ["90", "180", "360", "270"],
-            "poprawna_odpowiedz": "180"
+            "tresc": "Suma kątów wewnętrznych w trójkącie wynosi:",
+            "odpowiedzi": ["270°", "360°", "180°", "90°"],
+            "poprawna_odpowiedz": "180°"
         },
         {
-            "tresc": "Ile wynosi lim 1/n, gdy n -> inf?",
-            "odpowiedzi": ["0", "1", "Nieskończoność", "Nie istnieje"],
+            "tresc": "Ile wynosi granica 1/n, gdy n dąży do ∞?",
+            "odpowiedzi": ["0", "∞", "1", "Nie istnieje"],
             "poprawna_odpowiedz": "0"
         },
         {
-            "tresc": "Która to liczba pierwsza?",
-            "odpowiedzi": ["15", "9", "23", "49"],
+            "tresc": "Która liczba jest liczbą pierwszą?",
+            "odpowiedzi": ["49", "15", "23", "9"],
             "poprawna_odpowiedz": "23"
         },
         {
-            "tresc": "Funkcja, której wykresem jest parabola",
-            "odpowiedzi": ["Kwadratowa", "Wykładnicza", "Odwrotna", "Liniowa"],
-            "poprawna_odpowiedz": "Funkcja kwadratowa"
+            "tresc": "Funkcja, której wykresem jest parabola, to:",
+            "odpowiedzi": ["Odwrotna", "Kwadratowa", "Wykładnicza", "Liniowa"],
+            "poprawna_odpowiedz": "Kwadratowa"
         },
         {
-            "tresc": "Symbol zbioru liczb rzeczywistych",
-            "odpowiedzi": ["N", "Z", "R", "C"],
+            "tresc": "Symbol zbioru liczb rzeczywistych to:",
+            "odpowiedzi": ["R", "N", "Z", "C"],
             "poprawna_odpowiedz": "R"
         },
         {
-            "tresc": "Jaki jest wynik działania 7!",
-            "odpowiedzi": ["5040", "720", "504", "120"],
+            "tresc": "Jaki jest wynik działania 7!?",
+            "odpowiedzi": ["504", "5040", "120", "720"],
             "poprawna_odpowiedz": "5040"
         },
         {
-            "tresc": "Miara rozproszenia danych to",
-            "odpowiedzi": ["Średnia", "Wariancja", "Moda", "Mediana"],
+            "tresc": "Miara rozproszenia danych to:",
+            "odpowiedzi": ["Wariancja", "Mediana", "Moda", "Średnia"],
             "poprawna_odpowiedz": "Wariancja"
         },
         {
-            "tresc": "Rozwinięcie liczby π to",
-            "odpowiedzi": ["3.14", "3.13", "3.15", "3.16"],
+            "tresc": "Rozwinięcie liczby π to:",
+            "odpowiedzi": ["3.16", "3.14", "3.15", "3.13"],
             "poprawna_odpowiedz": "3.14"
         },
         {
-            "tresc": "Wzór na twierdzenie Pitagorasa",
-            "odpowiedzi": ["a^2 + b^2 = c^2", "a^2 = b^9 + c^2", "a + b = c", "a^3 + b^3 = c^3"],
-            "poprawna_odpowiedz": "a^2 + b^2 = c^2"
+            "tresc": "Wzór na twierdzenie Pitagorasa to:",
+            "odpowiedzi": ["a + b = c", "a² + b² = c²", "a³ + b³ = c³", "a² = b⁹ + c²"],
+            "poprawna_odpowiedz": "a² + b² = c²"
         },
         {
-            "tresc": "Czego nie ma sieć neuronowa",
-            "odpowiedzi": ["Neuronów", "Funkcji dezktywacji", "Dropoutu", "Pochodnych"],
-            "poprawna_odpowiedz": "Funkcji dezktywacji"
-
+            "tresc": "Czego nie posiada sieć neuronowa?",
+            "odpowiedzi": ["Neuronów", "Dropoutu", "Funkcji dezaktywacji", "Pochodnych"],
+            "poprawna_odpowiedz": "Funkcji dezaktywacji"
         },
         {
             "tresc": "Co oznacza symbol ∂ w matematyce?",
-            "odpowiedzi": ["Pochodna czastkowa", "Calkowanie", "Suma", "Iloczyn"],
-            "poprawna_odpowiedz": "Pochodna czastkowa"
+            "odpowiedzi": ["Suma", "Całkowanie", "Pochodna cząstkowa", "Iloczyn"],
+            "poprawna_odpowiedz": "Pochodna cząstkowa"
         },
         {
             "tresc": "Co to jest liczba zespolona?",
-            "odpowiedzi": ["Liczba urojona", "Liczba rzeczywista", "Liczba postaci a + bi", "Liczba naturalna"],
+            "odpowiedzi": ["Liczba naturalna", "Liczba rzeczywista", "Liczba urojona", "Liczba postaci a + bi"],
             "poprawna_odpowiedz": "Liczba postaci a + bi"
         },
         {
-            "tresc": "Czym jest calka nieoznaczona?",
-            "odpowiedzi": ["Sumowaniem", "Pierwotna funkcja", "Roznica funkcji", "Iloczynem"],
+            "tresc": "Czym jest całka nieoznaczona?",
+            "odpowiedzi": ["Pierwotna funkcja", "Różnicą funkcji", "Iloczynem", "Sumowaniem"],
             "poprawna_odpowiedz": "Pierwotna funkcja"
         },
         {
-            "tresc": "Ktory z punktow nalezy do y = 2x + 1?",
-            "odpowiedzi": ["(0,1)", "(1,3)", "(2,2)", "(0,0)"],
+            "tresc": "Który z punktów należy do funkcji y = 2x + 1?",
+            "odpowiedzi": ["(1,3)", "(0,0)", "(2,2)", "(0,1)"],
             "poprawna_odpowiedz": "(1,3)"
         },
         {
-            "tresc": "Jak oblicza sie modul liczby zespolonej z = a + bi?",
-            "odpowiedzi": ["sqrt(a^2 + b^2)", "a + b", "sqrt(a + b)", "a * b"],
-            "poprawna_odpowiedz": "sqrt(a^2 + b^2)"
+            "tresc": "Jak oblicza się moduł liczby zespolonej z = a + bi?",
+            "odpowiedzi": ["a + b", "√(a² + b²)", "a * b", "√(a + b)"],
+            "poprawna_odpowiedz": "√(a² + b²)"
         },
         {
-            "tresc": "Wyznacznik macierzy jednostkowej 4x4:",
-            "odpowiedzi": ["1", "4", "0", "10"],
+            "tresc": "Wyznacznik macierzy jednostkowej 4x4 to:",
+            "odpowiedzi": ["10", "1", "4", "0"],
             "poprawna_odpowiedz": "1"
         }
     ]
