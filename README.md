@@ -18,7 +18,7 @@
 
 - **Mateusz Walo** - 🧠 Programowanie, integracja funkcji, logika gry
 - **Oskar Wilkos** - 🎨 Grafika, wygląd interfejsu, funkcjonalność przycisków
-- **Igor Kozak** - 🔧 Logika gry, pytania
+- **Igor Kozak** - 🔧 Obsługa plików JSON, bazy pytań, wielolinijkowośc pytań
 
 ### 🛠️ Wymagania
 
