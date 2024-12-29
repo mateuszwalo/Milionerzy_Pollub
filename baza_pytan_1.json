@@ -1,0 +1,119 @@
+{
+    "pytania": [
+        {
+            "tresc": "Rozwiązania  x^2 + 2x - 3 = 0 to",
+            "odpowiedzi": ["x = -3 i x = 1", "x = -1 i x = 3", "x = 2 i x = -2", "x = 0 i x = 1"],
+            "poprawna_odpowiedz": "x = -3 i x = 1"
+        },
+        {
+            "tresc": "Czym jest gradient funkcji?",
+            "odpowiedzi": ["Wektorem kierunku najszybszego wzrostu", "Iloczynem skalarnym", "Punktem ekstremum", "Macierza diagonalna"],
+            "poprawna_odpowiedz": "Wektorem kierunku najszybszego wzrostu"
+        },
+        {
+            "tresc": "Suma pierwiastków x^2 - 5x + 6 = 0:",
+            "odpowiedzi": ["5", "6", "2", "3"],
+            "poprawna_odpowiedz": "5"
+        },
+        {
+            "tresc": "Co oznacza symbol ∇ w matematyce?",
+            "odpowiedzi": ["Operator nabla", "Operator gradientu", "Macierz Jacobiego", "Operator Laplace'a"],
+            "poprawna_odpowiedz": "Operator nabla"
+        },
+        {
+            "tresc": "funkcja f(x) = ln(x) to",
+            "odpowiedzi": ["Funkcja logarytmiczna", "Funkcja liniowa", "Funkcja kwadratowa", "Funkcja wykładnicza"],
+            "poprawna_odpowiedz": "Funkcja logarytmiczna"
+        },
+        {
+            "tresc": "Co to jest macierz symetryczna?",
+            "odpowiedzi": ["Macierz rowna swojej transpozycji", "Macierz diagonalna", "Macierz zerowa", "Macierz jednostkowa"],
+            "poprawna_odpowiedz": "Macierz rowna swojej transpozycji"
+        },
+        {
+            "tresc": "Który z ciągów jest zbieżny?",
+            "odpowiedzi": ["1/n", "n^2", "n!", "ln(n)"],
+            "poprawna_odpowiedz": "1/n"
+        },
+        {
+            "tresc": "Rozwiązania równania sin(x) = 1/2 to:",
+            "odpowiedzi": ["π/6 i 5π/6", "π/4 i 3π/4", "π/3 i 2π/3", "0 i π"],
+            "poprawna_odpowiedz": "π/6 i 5π/6"
+        },
+        {
+            "tresc": "Różnica między macierzą a jej transpozycją",
+            "odpowiedzi": ["Taka sama dla macierzy symetrycznej", "Jest zawsze zerowa", "Równa jej determinantowi", "Nie ma różnicy"],
+            "poprawna_odpowiedz": "Taka sama dla macierzy symetrycznej"
+        },
+        {
+            "tresc": "Pochodna f(x) = e^x + ln(x) to:",
+            "odpowiedzi": ["f'(x) = e^x + 1/x", "f'(x) = e^x - 1/x", "f'(x) = e^x + ln(x)", "f'(x) = e^x * ln(x)"],
+            "poprawna_odpowiedz": "f'(x) = e^x + 1/x"
+        },
+        {
+            "tresc": "Wyznacznik macierzy [2,1],[1,3]",
+            "odpowiedzi": ["5", "3", "1", "-1"],
+            "poprawna_odpowiedz": "5"
+        },
+        {
+            "tresc": "Rozwiazanie nierówności x^2 - 4 > 0",
+            "odpowiedzi": ["x < -2 lub x > 2", "-2 < x < 2", "x = 2", "x > 0"],
+            "poprawna_odpowiedz": "x < -2 lub x > 2"
+        },
+        {
+            "tresc": "Czym jest całka oznaczona?",
+            "odpowiedzi": ["Pole pod wykresem funkcji", "Granica ciągu", "Iloczyn funkcji", "Wartość średnia funkcji"],
+            "poprawna_odpowiedz": "Pole pod wykresem funkcji"
+        },
+        {
+            "tresc": "Wartości własne macierzy jednostkowej?",
+            "odpowiedzi": ["1", "0", "-1", "Nie istnieją"],
+            "poprawna_odpowiedz": "1"
+        },
+        {
+            "tresc": "Jak zapisuje się wzór Taylora?",
+            "odpowiedzi": ["f(x) ≈ f(a) + f'(a)(x-a)", "f(x) ≈ f(a) - f'(a)(x-a)", "f(x) ≈ f(a) * f'(a)(x-a)", "f(x) ≈ f'(a)"],
+            "poprawna_odpowiedz": "f(x) = f(a) + f'(a)(x-a)"
+        },
+        {
+            "tresc": "Jaki jest ślad macierzy [3,0],[0,4]?",
+            "odpowiedzi": ["7", "3", "4", "0"],
+            "poprawna_odpowiedz": "7"
+        },
+        {
+            "tresc": "Długość wektora v = [3,4] wynosi: ",
+            "odpowiedzi": ["5", "7", "25", "1"],
+            "poprawna_odpowiedz": "5"
+        },
+        {
+            "tresc": "Granica ciągu 1/n^2 gdy n->inf",
+            "odpowiedzi": ["0", "1", "Nieskończoność", "Nie istnieje"],
+            "poprawna_odpowiedz": "0"
+        },
+        {
+            "tresc": "Pochodna f(x) = x^3 - 3x^2 + 5 to:",
+            "odpowiedzi": ["f'(x) = 3x^2 - 6x", "f'(x) = x^2 - 3x + 5", "f'(x) = 3x - 6", "f'(x) = x^3 - 6x + 5"],
+            "poprawna_odpowiedz": "f'(x) = 3x^2 - 6x"
+        },
+        {
+            "tresc": "Rozwinięcie szeregu Taylora dla e^x",
+            "odpowiedzi": ["1 + x + x^2/2! + x^3/3! + ...", "1 + x + x^2 + x^3 + ...", "x + x^2 + x^3 + ...", "x^2 + x^3/2 + x^4/3 + ..."],
+            "poprawna_odpowiedz": "1 + x + x^2/2! + x^3/3! + ..."
+        },
+        {
+            "tresc": "Suma szeregu geometrycznego q = 1/2",
+            "odpowiedzi": ["1/(1-q)", "1", "q/(1-q)", "∞"],
+            "poprawna_odpowiedz": "1/(1-q)"
+        },
+        {
+            "tresc": "Pochodna funkcji f(x) = ln(x^2)",
+            "odpowiedzi": ["f'(x) = 2/x", "f'(x) = 1/x", "f'(x) = x", "f'(x) = 2x"],
+            "poprawna_odpowiedz": "f'(x) = 2/x"
+        },
+        {
+            "tresc": "Całka od 0 do 1 z f(x) = x po dx",
+            "odpowiedzi": ["1/2", "1/3", "1", "0"],
+            "poprawna_odpowiedz": "1/2" 
+        }
+    ]
+}

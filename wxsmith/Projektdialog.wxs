@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="ProjektDialog">
+		<title>Milionerzy Pollub </title>
+		<id_arg>0</id_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer2" member="no">
+					<orient>wxVERTICAL</orient>
+					<object class="sizeritem">
+						<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+							<bitmap>resources\logo-1.png</bitmap>
+							<size>461,149</size>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+							<value>Text</value>
+							<size>463,149</size>
+							<fg>wxSYS_COLOUR_WINDOW</fg>
+							<bg>wxSYS_COLOUR_BACKGROUND</bg>
+							<style>wxTE_READONLY|wxTE_CENTRE</style>
+							<handler function="OnTextCtrl1Text1" entry="EVT_TEXT" />
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer1" member="no">
+							<cols>2</cols>
+							<rows>2</rows>
+							<vgap>10</vgap>
+							<hgap>10</hgap>
+							<growablecols>0,1</growablecols>
+							<growablerows>0,1</growablerows>
+							<object class="sizeritem">
+								<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+									<label>Label</label>
+									<size>215,55</size>
+									<fg>wxSYS_COLOUR_WINDOW</fg>
+									<bg>wxSYS_COLOUR_ACTIVECAPTION</bg>
+								</object>
+								<flag>wxALL|wxEXPAND</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+									<label>Label</label>
+									<size>213,61</size>
+									<fg>wxSYS_COLOUR_WINDOW</fg>
+									<bg>wxSYS_COLOUR_ACTIVECAPTION</bg>
+								</object>
+								<flag>wxALL|wxEXPAND</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxButton" name="ID_BUTTON3" variable="Button3" member="yes">
+									<label>Label</label>
+									<size>227,58</size>
+									<fg>wxSYS_COLOUR_WINDOW</fg>
+									<bg>wxSYS_COLOUR_ACTIVECAPTION</bg>
+								</object>
+								<flag>wxALL|wxEXPAND</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxButton" name="ID_BUTTON4" variable="Button4" member="yes">
+									<label>Label</label>
+									<size>210,52</size>
+									<fg>wxSYS_COLOUR_WINDOW</fg>
+									<bg>wxSYS_COLOUR_ACTIVECAPTION</bg>
+								</object>
+								<flag>wxALL|wxEXPAND</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer3" member="no">
+					<orient>wxVERTICAL</orient>
+					<object class="sizeritem">
+						<object class="wxButton" name="ID_BUTTON5" variable="Button5" member="yes">
+							<label>50/50</label>
+							<fg>wxSYS_COLOUR_WINDOW</fg>
+							<bg>wxSYS_COLOUR_ACTIVECAPTION</bg>
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxButton" name="ID_BUTTON6" variable="Button6" member="yes">
+							<label>Telefon do przyjaciela</label>
+							<fg>wxSYS_COLOUR_WINDOW</fg>
+							<bg>wxSYS_COLOUR_ACTIVECAPTION</bg>
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+			</object>
+		</object>
+	</object>
+</wxsmith>

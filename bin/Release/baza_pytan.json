@@ -1,0 +1,161 @@
+{
+    "pytania": [
+        {
+            "tresc": "Ile ECTS ma Analiza matematyczna 1 na IAD?",
+            "odpowiedzi": ["3", "2", "6", "4"],
+            "poprawna_odpowiedz": "6"
+        },
+        {
+            "tresc": "Jaka jest wiodąca dyscyplina kierunku IAD?",
+            "odpowiedzi": ["Matematyka", "Nauki Prawne", "Psychologia", "Informatyka techniczna"],
+            "poprawna_odpowiedz": "Matematyka"
+        },
+        {
+            "tresc": "Który przedmiot nie znajduję się w sylabusie IAD",
+            "odpowiedzi": ["Rachunek Prawdopodobieństwa", "Statystyka", "Bazy Danych", "Chemia"],
+            "poprawna_odpowiedz": "Chemia"
+        },
+        {
+            "tresc": "Ile ECTS ma ostani semestr na IAD?",
+            "odpowiedzi": ["20", "25", "40", "30"],
+            "poprawna_odpowiedz": "30"
+        },
+        {
+            "tresc": "Które z kół istnieje na WMiIT?",
+            "odpowiedzi": ["Atlas", "Maniacy Informatyki", "Globus", "INP"],
+            "poprawna_odpowiedz": "Atlas"
+        },
+        {
+            "tresc": "Co rozwijają studenci z koła Atlas?",
+            "odpowiedzi": ["ML i AI", "Psychologię", "AutoCADa", "Matlaba"],
+            "poprawna_odpowiedz": "ML i AI"
+        },
+        {
+            "tresc": "Ile istnieje kół na WMiIT?",
+            "odpowiedzi": ["4", "5", "7", "8"],
+            "poprawna_odpowiedz": "7"
+        },
+        {
+            "tresc": "Kto jest przewodniczącym Samorządu Uczniowskiego?",
+            "odpowiedzi": ["Aleksandra Kolęda", "Aleksandra Fliszkiewicz", "Dominika Mazur", "Aleksandra Fuks"],
+            "poprawna_odpowiedz": "Aleksandra Fuks"
+        },
+        {
+            "tresc": "Którego kierunku nie ma na WMiIT?",
+            "odpowiedzi": ["IB", "IAD", "OZE", "ETI"],
+            "poprawna_odpowiedz": "OZE"
+        },
+        {
+            "tresc": "Ile semestrów ma I stopień IAD?",
+            "odpowiedzi": ["5", "6", "7", "8"],
+            "poprawna_odpowiedz": "7"
+        },
+        {
+            "tresc": "Ile jest katedr na WMiIT?",
+            "odpowiedzi": ["5", "6", "4", "3"],
+            "poprawna_odpowiedz": "5"
+        },
+        {
+            "tresc": "Który wydział na Pollub jest najmłodszy?",
+            "odpowiedzi": ["WMiIT", "WM", "WIŚ", "WBiA"],
+            "poprawna_odpowiedz": "WMiIT"
+        },
+        {
+            "tresc": "Kiedy powstała Politechnika Lubelska?",
+            "odpowiedzi": ["1920", "1980", "1765", "1953"],
+            "poprawna_odpowiedz": "1953"
+        },
+        {
+            "tresc": "Kiedy obchodzimy święto Politechniki Lubelskiej?",
+            "odpowiedzi": ["20 maja", "13 czerwca", "13 maja", "20 czerwca"],
+            "poprawna_odpowiedz": "13 maja"
+        },
+        {
+            "tresc": "Co oznacza skrót 'RAM'?",
+            "odpowiedzi": ["Random Access Memory", "Read Access Memory", "Realtime Access Memory", "Run Access Memory"],
+            "poprawna_odpowiedz": "Random Access Memory"
+        },
+
+        {
+            "tresc": "Suma kątów wewnętrznych w trókącie wynosi:",
+            "odpowiedzi": ["90", "180", "360", "270"],
+            "poprawna_odpowiedz": "180"
+        },
+        {
+            "tresc": "Ile wynosi lim 1/n, gdy n -> inf?",
+            "odpowiedzi": ["0", "1", "Nieskończoność", "Nie istnieje"],
+            "poprawna_odpowiedz": "0"
+        },
+        {
+            "tresc": "Która to liczba pierwsza?",
+            "odpowiedzi": ["15", "9", "23", "49"],
+            "poprawna_odpowiedz": "23"
+        },
+        {
+            "tresc": "Funkcja, której wykresem jest parabola",
+            "odpowiedzi": ["Kwadratowa", "Wykładnicza", "Odwrotna", "Liniowa"],
+            "poprawna_odpowiedz": "Funkcja kwadratowa"
+        },
+        {
+            "tresc": "Symbol zbioru liczb rzeczywistych",
+            "odpowiedzi": ["N", "Z", "R", "C"],
+            "poprawna_odpowiedz": "R"
+        },
+        {
+            "tresc": "Jaki jest wynik działania 7!",
+            "odpowiedzi": ["5040", "720", "504", "120"],
+            "poprawna_odpowiedz": "5040"
+        },
+        {
+            "tresc": "Miara rozproszenia danych to",
+            "odpowiedzi": ["Średnia", "Wariancja", "Moda", "Mediana"],
+            "poprawna_odpowiedz": "Wariancja"
+        },
+        {
+            "tresc": "Rozwinięcie liczby π to",
+            "odpowiedzi": ["3.14", "3.13", "3.15", "3.16"],
+            "poprawna_odpowiedz": "3.14"
+        },
+        {
+            "tresc": "Wzór na twierdzenie Pitagorasa",
+            "odpowiedzi": ["a^2 + b^2 = c^2", "a^2 = b^9 + c^2", "a + b = c", "a^3 + b^3 = c^3"],
+            "poprawna_odpowiedz": "a^2 + b^2 = c^2"
+        },
+        {
+            "tresc": "Czego nie ma sieć neuronowa",
+            "odpowiedzi": ["Neuronów", "Funkcji dezktywacji", "Dropoutu", "Pochodnych"],
+            "poprawna_odpowiedz": "Funkcji dezktywacji"
+
+        },
+        {
+            "tresc": "Co oznacza symbol ∂ w matematyce?",
+            "odpowiedzi": ["Pochodna czastkowa", "Calkowanie", "Suma", "Iloczyn"],
+            "poprawna_odpowiedz": "Pochodna czastkowa"
+        },
+        {
+            "tresc": "Co to jest liczba zespolona?",
+            "odpowiedzi": ["Liczba urojona", "Liczba rzeczywista", "Liczba postaci a + bi", "Liczba naturalna"],
+            "poprawna_odpowiedz": "Liczba postaci a + bi"
+        },
+        {
+            "tresc": "Czym jest calka nieoznaczona?",
+            "odpowiedzi": ["Sumowaniem", "Pierwotna funkcja", "Roznica funkcji", "Iloczynem"],
+            "poprawna_odpowiedz": "Pierwotna funkcja"
+        },
+        {
+            "tresc": "Ktory z punktow nalezy do y = 2x + 1?",
+            "odpowiedzi": ["(0,1)", "(1,3)", "(2,2)", "(0,0)"],
+            "poprawna_odpowiedz": "(1,3)"
+        },
+        {
+            "tresc": "Jak oblicza sie modul liczby zespolonej z = a + bi?",
+            "odpowiedzi": ["sqrt(a^2 + b^2)", "a + b", "sqrt(a + b)", "a * b"],
+            "poprawna_odpowiedz": "sqrt(a^2 + b^2)"
+        },
+        {
+            "tresc": "Wyznacznik macierzy jednostkowej 4x4:",
+            "odpowiedzi": ["1", "4", "0", "10"],
+            "poprawna_odpowiedz": "1"
+        }
+    ]
+}

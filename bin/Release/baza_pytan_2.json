@@ -1,0 +1,109 @@
+{
+    "pytania": [
+        {
+            "tresc": "Suma pierwiastków x^4 - 3x^2 + 2x - 7",
+            "odpowiedzi": ["0", "-2", "3", "Nie można obliczyć"],
+            "poprawna_odpowiedz": "0"
+        },
+        {
+            "tresc": "Ile wynosi całka po R z e^{-x^2} dx?",
+            "odpowiedzi": ["sqrt(pi)", "pi", "2sqrt(pi)", "Nie istnieje"],
+            "poprawna_odpowiedz": "sqrt(pi)"
+        },
+        {
+            "tresc": "Rozwinięcie ln(1+x) w szereg Taylora?",
+            "odpowiedzi": ["x - x^2/2 + x^3/3 - ...", "x + x^2/2 + x^3/3 + ...", "1 + x + x^2/2 + ...", "1 - x + x^2 - ..."],
+            "poprawna_odpowiedz": "x - x^2/2 + x^3/3 - ..."
+        },
+        {
+            "tresc": "Jak liczymy wyznacznik macierzy A n x n?",
+            "odpowiedzi": ["Suma elementów głównej przekątnej", "Metoda Laplace'a", "Iloczyn wartości własnych", "Iloczyn elementów wierszy"],
+            "poprawna_odpowiedz": "Metoda Laplace'a"
+        },
+        {
+            "tresc": "Czy funkcja e^{x^2} jest ograniczona?",
+            "odpowiedzi": ["Nie", "Tak", "Zależy od przedziału", "Nie można określić"],
+            "poprawna_odpowiedz": "Nie"
+        },
+        {
+            "tresc": "Funkcja odwrotna do e^x?",
+            "odpowiedzi": ["ln(x)", "1/x", "x^e", "xln(x)"],
+            "poprawna_odpowiedz": "ln(x)"
+        },
+        {
+            "tresc": "Jakie są pierwiastki x^3 + x^2 + x + 1?",
+            "odpowiedzi": ["-1, i, -i", "1, -1, 0", "1, -1, i", "Pierwiastki zespolone"],
+            "poprawna_odpowiedz": "Pierwiastki zespolone"
+        },
+        {
+            "tresc": "Równanie równowagi w układzie Lagrange’a",
+            "odpowiedzi": ["d/dt(dL/dq') - dL/dq = 0", "dL/dq = 0", "dL/dq' = 0", "q' = dq/dt"],
+            "poprawna_odpowiedz": "d/dt(dL/dq') - dL/dq = 0"
+        },
+        {
+            "tresc": "Suma szeregu harmonicznego",
+            "odpowiedzi": ["Inf", "1", "2", "Nie istnieje"],
+            "poprawna_odpowiedz": "Inf"
+        },
+        {
+            "tresc": "Wynik całki e^x * sin(x) dx",
+            "odpowiedzi": ["1/2 e^x (sin(x) - cos(x)) + C", "e^x sin(x) + C", "-cos(x) e^x + C", "e^x cos(x) + C"],
+            "poprawna_odpowiedz": "1/2 e^x (sin(x) - cos(x)) + C"
+        },
+        {
+            "tresc": "Czy macierz Hermitowska \njest zawsze diagonalizowalna?",
+            "odpowiedzi": ["Tak", "Nie", "Tylko dla macierzy rzeczywistych", "Zależy od wartości własnych"],
+            "poprawna_odpowiedz": "Tak"
+        },
+        {
+            "tresc": "Suma krawędzi w grafie pełnym z V=n?",
+            "odpowiedzi": ["n(n-1)/2", "n^2", "n(n+1)/2", "n!"],
+            "poprawna_odpowiedz": "n(n-1)/2"
+        },
+        {
+            "tresc": "Granica sin(x)/x gdzie x->0",
+            "odpowiedzi": ["1", "0", "∞", "Nie istnieje"],
+            "poprawna_odpowiedz": "1"
+        },
+        {
+            "tresc": "Czy iloczyn macierzy odwrotnych \njest zawsze odwrotny?",
+            "odpowiedzi": ["Tak", "Nie", "Tylko dla macierzy diagonalnych", "Nie dla zespolonych"],
+            "poprawna_odpowiedz": "Tak"
+        },
+        {
+            "tresc": "Co oznacza operator nabla?",
+            "odpowiedzi": ["Gradient", "Laplasjan", "Całka", "Różniczka"],
+            "poprawna_odpowiedz": "Gradient"
+        },
+        {
+            "tresc": "Ile wynosi całka po R+ e^{-x^2} dx?",
+            "odpowiedzi": ["sqrt(pi)/2", "sqrt(pi)", "1", "Nie istnieje"],
+            "poprawna_odpowiedz": "sqrt(pi)/2"
+        },
+        {
+            "tresc": "Rozwinięcie szeregu od 1 do inf \n(-1)^n / n^2?",
+            "odpowiedzi": ["-pi^2/12", "-1/12", "pi^2/12", "Nie istnieje"],
+            "poprawna_odpowiedz": "-pi^2/12"
+        },
+        {
+            "tresc": "Czy każda macierz symetryczna \njest diagonalizowalna?",
+            "odpowiedzi": ["Tak", "Nie", "Tylko dla liczb całkowitych", "Tylko w przypadku macierzy jednostkowych"],
+            "poprawna_odpowiedz": "Tak"
+        },
+        {
+            "tresc": "Czy szereg od 1 do inf 1/n^p zbiega dla p > 1?",
+            "odpowiedzi": ["Tak", "Nie", "Zależy od n", "Nie istnieje"],
+            "poprawna_odpowiedz": "Tak"
+        },
+        {
+            "tresc": "Jaką macierz nazywamy ortogonalną?",
+            "odpowiedzi": ["transponowana = ortogonalna", "Wyznacznik to 0", "Jest diagonalna", "Jej wartości własne są rzeczywiste"],
+            "poprawna_odpowiedz": "transponowana = ortogonalna"
+        },
+        {
+            "tresc": "Całka z 1/(x^2 + a^2) dx",
+            "odpowiedzi": ["1/a arctan(x/a) + C", "ln(x + sqrt(x^2 + a^2)) + C", "arctan(x/a) + C", "1/arctan(x/a)"],
+            "poprawna_odpowiedz": "1/a arctan(x/a) + C"
+        }
+    ]
+}
