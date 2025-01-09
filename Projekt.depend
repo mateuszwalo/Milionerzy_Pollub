@@ -2861,6 +2861,49 @@
 	<wx/settings.h>
 	<wx/string.h>
 
-1735218960 source:c:\studia materia£y\semestr iii\pzp\milionerzy_pollub\resource.rc
+1736425692 source:c:\studia materia£y\semestr iii\pzp\milionerzy_pollub\resource.rc
 	"wx/msw/wx.rc"
+
+1735459970 source:c:\studia materia£y\semestr iii\pzp\milionerzy_pollub1\projektapp.cpp
+	"ProjektApp.h"
+	<iostream>
+	<fstream>
+	<chrono>
+	<nlohmann/json.hpp>
+	"ProjektMain.h"
+	<wx/image.h>
+
+1735242263 c:\studia materia£y\semestr iii\pzp\milionerzy_pollub1\projektapp.h
+	<nlohmann/json.hpp>
+	<string>
+	<vector>
+	<wx/app.h>
+
+1735376763 c:\studia materia£y\semestr iii\pzp\milionerzy_pollub1\projektmain.h
+	<wx/button.h>
+	<wx/dialog.h>
+	<wx/sizer.h>
+	<wx/statbmp.h>
+	<wx/textctrl.h>
+	<chrono>
+
+1735462169 source:c:\studia materia£y\semestr iii\pzp\milionerzy_pollub1\projektmain.cpp
+	"ProjektMain.h"
+	<wx/msgdlg.h>
+	"ProjektApp.h"
+	<wx/choicdlg.h>
+	<iostream>
+	<fstream>
+	<random>
+	<vector>
+	<string>
+	<nlohmann/json.hpp>
+	<algorithm>
+	<chrono>
+	<wx/dcclient.h>
+	<wx/bitmap.h>
+	<wx/image.h>
+	<wx/intl.h>
+	<wx/settings.h>
+	<wx/string.h>
 
