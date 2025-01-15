@@ -217,11 +217,18 @@ void ProjektDialog::DisplayQuestion()
     askedQuestions[currentQuestionIndex] = true;
     Question& question = questions[currentQuestionIndex];
 
+    // Skopiuj odpowiedzi do tymczasowego wektora
+    std::vector<std::string> shuffledAnswers = question.odpowiedzi;
+
+    // Przetasuj odpowiedzi
+    std::shuffle(shuffledAnswers.begin(), shuffledAnswers.end(), gen);
+
+    // Przypisz przetasowane odpowiedzi do przycisków
     TextCtrl1->SetValue(wxString::FromUTF8(question.tresc));
-    Button1->SetLabel(wxString::FromUTF8(question.odpowiedzi[0]));
-    Button2->SetLabel(wxString::FromUTF8(question.odpowiedzi[1]));
-    Button3->SetLabel(wxString::FromUTF8(question.odpowiedzi[2]));
-    Button4->SetLabel(wxString::FromUTF8(question.odpowiedzi[3]));
+    Button1->SetLabel(wxString::FromUTF8(shuffledAnswers[0]));
+    Button2->SetLabel(wxString::FromUTF8(shuffledAnswers[1]));
+    Button3->SetLabel(wxString::FromUTF8(shuffledAnswers[2]));
+    Button4->SetLabel(wxString::FromUTF8(shuffledAnswers[3]));
 
     fiftyFiftyUsed = false;
     phoneAFriendUsed = false;

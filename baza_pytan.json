@@ -126,11 +126,6 @@
             "poprawna_odpowiedz": "Funkcji dezaktywacji"
         },
         {
-            "tresc": "Co oznacza symbol ∂ w matematyce?",
-            "odpowiedzi": ["Suma", "Całkowanie", "Pochodna cząstkowa", "Iloczyn"],
-            "poprawna_odpowiedz": "Pochodna cząstkowa"
-        },
-        {
             "tresc": "Co to jest liczba zespolona?",
             "odpowiedzi": ["Liczba naturalna", "Liczba rzeczywista", "Liczba urojona", "Liczba postaci a + bi"],
             "poprawna_odpowiedz": "Liczba postaci a + bi"
@@ -147,8 +142,8 @@
         },
         {
             "tresc": "Jak oblicza się moduł liczby zespolonej z = a + bi?",
-            "odpowiedzi": ["a + b", "√(a² + b²)", "a * b", "√(a + b)"],
-            "poprawna_odpowiedz": "√(a² + b²)"
+            "odpowiedzi": ["a + b", "sqrt(a² + b²)", "a * b", "√(a + b)"],
+            "poprawna_odpowiedz": "sqrt(a² + b²)"
         },
         {
             "tresc": "Wyznacznik macierzy jednostkowej 4x4 to:",
