@@ -1,0 +1,93 @@
+\documentclass[]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[a4paper]{geometry}
+\usepackage[polish]{babel}
+\usepackage{tocloft}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+
+
+%opening
+\title{Milionerzy - Projekt Politechnika Lubelska}
+\author{Mateusz Walo, Igor Kozak, Oskar Wilkos}
+\date{}
+
+\begin{document}
+	
+	% Tytuł dokumentu
+	\maketitle
+	
+	\begin{center}
+		\includegraphics[width=0.35\textwidth]{pl.jpg} 
+	\end{center}
+	
+	% Spis treści
+	\tableofcontents
+	\newpage
+	
+	% Nagłówki
+	\fancyhf{} % Resetuje domyślny styl nagłówków i stopek
+	\fancyhead[L]{\bfseries Milionerzy - Projekt Politechnika Lubelska} % Nagłówek po lewej stronie
+	\pagestyle{fancy}
+	\renewcommand{\cftsecfont}{\bfseries} % Czcionka sekcji
+	\setlength{\cftsecnumwidth}{2.5em} % Odstęp w numerach sekcji
+	
+	% Sekcja 1
+	\section{Ogólny opis aplikacji}
+	Aplikacja jest inspirowana popularną grą \emph{„Milionerzy”} i umożliwia użytkownikowi odpowiadanie na pytania quizowe. Gra oferuje dwa koła ratunkowe: „50/50” i „Telefon do przyjaciela”. Rozgrywka kończy się, gdy użytkownik zdobędzie 1000 punktów, co oznacza zwycięstwo. Każda poprawna odpowiedź daje 100 punktów. Po zakończeniu gry, użytkownik może rozpocząć nową rundę. Aby zmienić poziom trudności, należy zamknąć grę i uruchomić ją ponownie.
+	
+	% Sekcja 2
+	\section{Wczytywanie pytań}
+	Gra oferuje trzy poziomy trudności, z osobnymi bazami pytań w formacie JSON dla każdego z nich. Użytkownik ma możliwość wyboru poziomu trudności, a aplikacja automatycznie wczytuje odpowiednią bazę pytań z pliku JSON.
+	
+	% Sekcja 3
+	\section{Wykorzystane struktury i klasy}
+	\begin{itemize}
+		\item \textbf{Struktura Question:} Przechowuje pytanie, możliwe odpowiedzi i poprawną odpowiedź.
+		\item \textbf{Zmienna questions:} Przechowuje wektor wszystkich pytań.
+		\item \textbf{Zmienna askedQuestions:} Zawiera informację, które pytania zostały już zadane.
+	\end{itemize}
+	
+	% Sekcja 4
+	\section{Szczegółowe przedstawienie przycisków}
+	
+	% Podsekcja 4.1
+	\subsection{Przyciski: "Label" (Przyciski 1, 2, 3, 4)}
+	\begin{itemize}
+		\item \textbf{ID:} ID\_BUTTON1, ID\_BUTTON2, ID\_BUTTON3, ID\_BUTTON4.
+		\item \textbf{Opis:} Cztery przyciski, z których każdy reprezentuje jedną z możliwych odpowiedzi na pytanie. Użytkownik wybiera odpowiedź, klikając jeden z tych przycisków. Tekst przycisku to jedna z czterech odpowiedzi do wybranego pytania.
+		\item \textbf{Funkcjonalność:} 
+		\begin{itemize}
+			\item Po kliknięciu na jeden z przycisków aplikacja sprawdza, czy wybrana odpowiedź jest poprawna.
+			\item Jeśli odpowiedź jest poprawna, użytkownik zdobywa 100 punktów. W przypadku błędnej odpowiedzi, gra zostaje zresetowana, a użytkownik zaczyna od nowa.
+		\end{itemize}
+	\end{itemize}
+	
+	\subsection{Przycisk: 50/50}
+	\begin{itemize}
+		\item \textbf{ID:} ID\_BUTTON5.
+		\item \textbf{Opis:} Przycisk aktywuje koło ratunkowe "50/50", które usuwa dwie niepoprawne odpowiedzi, pozostawiając tylko dwie, w tym jedną poprawną. Koło ratunkowe jest dostępne tylko raz w grze i może być użyte tylko raz na pytanie.
+		\item \textbf{Funkcjonalność:}
+		\begin{itemize}
+			\item Jeśli koło ratunkowe zostało już użyte, użytkownik zobaczy komunikat o błędzie
+			\item Jeśli jest dostępne, przycisk usuwa dwie odpowiedzi, które są niepoprawne.
+		\end{itemize}
+	\end{itemize}
+	
+	\subsection{Przycisk: Telefon do przyjaciela}
+	\begin{itemize}
+		\item \textbf{ID:} ID\_BUTTON6.
+		\item \textbf{Opis:} Przycisk aktywuje drugie koło ratunkowe - "Telefon do przyjaciela", które  usuwa 3 z 4 odpowiedzi, pozostawiając jedną, którą jest poprawna odpowiedź.
+		\item \textbf{Funkcjonalność:}
+		\begin{itemize}
+			\item o	Jeśli koło ratunkowe zostało już użyte, użytkownik otrzymuje komunikat informujący o tym, że nie może go ponownie wykorzystać.
+			\item o	Jeśli jest dostępne, przycisk usuwa 3 odpowiedzi, pozostawiając tylko jedną poprawną odpowiedź
+		\end{itemize}
+	\end{itemize}
+	
+	
+	\section{Podsumowanie}
+	
+\end{document}

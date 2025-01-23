@@ -1,0 +1,9 @@
+\babel@toc {polish}{}\relax 
+\contentsline {section}{\numberline {1}Ogólny opis aplikacji}{2}{}%
+\contentsline {section}{\numberline {2}Wczytywanie pytań}{2}{}%
+\contentsline {section}{\numberline {3}Wykorzystane struktury i klasy}{2}{}%
+\contentsline {section}{\numberline {4}Szczegółowe przedstawienie przycisków}{2}{}%
+\contentsline {subsection}{\numberline {4.1}Przyciski: "Label" (Przyciski 1, 2, 3, 4)}{2}{}%
+\contentsline {subsection}{\numberline {4.2}Przycisk: 50/50}{2}{}%
+\contentsline {subsection}{\numberline {4.3}Przycisk: Telefon do przyjaciela}{3}{}%
+\contentsline {section}{\numberline {5}Podsumowanie}{3}{}%
