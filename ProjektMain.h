@@ -26,24 +26,19 @@ public:
     virtual ~ProjektDialog();
 
 private:
-    // Declare the new methods
     void DisplayQuestion();
     void OnButtonClicked(wxCommandEvent& event);
     void OnFiftyFifty(wxCommandEvent& event);
     void OnPhoneAFriend(wxCommandEvent& event);
     void LoadQuestionsFromFile(const wxString& fileName);
 
-    // Variables to track if lifelines have been used
     bool fiftyFiftyUsed;
     bool phoneAFriendUsed;
     bool fiftyFiftyUsedGlobal;
     bool phoneAFriendUsedGlobal;
 
-    // Variable to track points
     int points;
 
-    // Variable to track start time
-    std::chrono::steady_clock::time_point startTime;
 
     //(*Handlers(ProjektDialog)
     void OnQuit(wxCommandEvent& event);

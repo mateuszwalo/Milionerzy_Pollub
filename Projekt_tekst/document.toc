@@ -1,9 +1,23 @@
 \babel@toc {polish}{}\relax 
-\contentsline {section}{\numberline {1}Ogólny opis aplikacji}{2}{}%
-\contentsline {section}{\numberline {2}Wczytywanie pytań}{2}{}%
-\contentsline {section}{\numberline {3}Wykorzystane struktury i klasy}{2}{}%
-\contentsline {section}{\numberline {4}Szczegółowe przedstawienie przycisków}{2}{}%
-\contentsline {subsection}{\numberline {4.1}Przyciski: "Label" (Przyciski 1, 2, 3, 4)}{2}{}%
-\contentsline {subsection}{\numberline {4.2}Przycisk: 50/50}{2}{}%
-\contentsline {subsection}{\numberline {4.3}Przycisk: Telefon do przyjaciela}{3}{}%
-\contentsline {section}{\numberline {5}Podsumowanie}{3}{}%
+\contentsline {section}{\numberline {1}Ogólny opis aplikacji}{3}{}%
+\contentsline {section}{\numberline {2}Struktura kodu}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Nagłówki i biblioteki}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Zmienne globalne}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Funkcja \texttt {wxbuildinfo}}{4}{}%
+\contentsline {subsection}{\numberline {2.4}Klasa \texttt {ProjektDialog}}{5}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}Konstruktor i destruktor}{5}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}Metoda \texttt {OnPaint}}{5}{}%
+\contentsline {subsubsection}{\numberline {2.4.3}Metoda \texttt {DisplayQuestion}}{6}{}%
+\contentsline {subsubsection}{\numberline {2.4.4}Metoda \texttt {LoadQuestionsFromFile}}{6}{}%
+\contentsline {subsubsection}{\numberline {2.4.5}Metoda \texttt {OnButtonClicked}}{7}{}%
+\contentsline {subsubsection}{\numberline {2.4.6}Metoda \texttt {OnFiftyFifty}}{8}{}%
+\contentsline {subsubsection}{\numberline {2.4.7}Metoda \texttt {OnPhoneAFriend}}{9}{}%
+\contentsline {subsubsection}{\numberline {2.4.8}Metoda \texttt {OnQuit}}{10}{}%
+\contentsline {subsubsection}{\numberline {2.4.9}Metoda \texttt {OnAbout}}{10}{}%
+\contentsline {subsection}{\numberline {2.5}Funkcja \texttt {main}}{11}{}%
+\contentsline {subsection}{\numberline {2.6}Dodatkowe metody}{11}{}%
+\contentsline {section}{\numberline {3}Podsumowanie}{11}{}%
+\contentsline {section}{\numberline {4}Podział obowiązków}{12}{}%
+\contentsline {subsection}{\numberline {4.1}Mateusz Walo}{12}{}%
+\contentsline {subsection}{\numberline {4.2}Igor Kozak}{12}{}%
+\contentsline {subsection}{\numberline {4.3}Oskar Wilkos}{13}{}%

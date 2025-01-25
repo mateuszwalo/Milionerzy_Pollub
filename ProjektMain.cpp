@@ -9,7 +9,6 @@
 #include <string>
 #include <nlohmann/json.hpp>
 #include <algorithm>
-#include <chrono>
 
 #undef _
 #define _(s) wxString::FromUTF8(s)
@@ -41,7 +40,6 @@ bool fiftyFiftyUsedGlobal = false;
 bool phoneAFriendUsedGlobal = false;
 
 int points = 0;
-std::chrono::steady_clock::time_point startTime;
 
 enum wxbuildinfoformat
 {
@@ -101,7 +99,7 @@ void ProjektDialog::OnPaint(wxPaintEvent& event)
 }
 
 ProjektDialog::ProjektDialog(wxWindow* parent, wxWindowID id)
-    : points(0), fiftyFiftyUsed(false), phoneAFriendUsed(false), fiftyFiftyUsedGlobal(false), phoneAFriendUsedGlobal(false), startTime(std::chrono::steady_clock::now())
+    : points(0), fiftyFiftyUsed(false), phoneAFriendUsed(false), fiftyFiftyUsedGlobal(false), phoneAFriendUsedGlobal(false)
 {
     //(*Initialize(ProjektDialog)
     wxBoxSizer* BoxSizer1;
@@ -217,13 +215,10 @@ void ProjektDialog::DisplayQuestion()
     askedQuestions[currentQuestionIndex] = true;
     Question& question = questions[currentQuestionIndex];
 
-    // Skopiuj odpowiedzi do tymczasowego wektora
     std::vector<std::string> shuffledAnswers = question.odpowiedzi;
 
-    // Przetasuj odpowiedzi
     std::shuffle(shuffledAnswers.begin(), shuffledAnswers.end(), gen);
 
-    // Przypisz przetasowane odpowiedzi do przycisków
     TextCtrl1->SetValue(wxString::FromUTF8(question.tresc));
     Button1->SetLabel(wxString::FromUTF8(shuffledAnswers[0]));
     Button2->SetLabel(wxString::FromUTF8(shuffledAnswers[1]));

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.29)  21 JAN 2025 17:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.29)  25 JAN 2025 12:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -188,7 +188,7 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 17
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 16
 .
 
 (C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd
@@ -202,20 +202,20 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 (document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -272,40 +272,40 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-0.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+9.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-0.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+9.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-20.
+19.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-20.
+19.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 20.
+(Font)              <12> on input line 19.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 20.
+(Font)              <8> on input line 19.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 20.
+(Font)              <6> on input line 19.
 <pl.jpg, id=1, 324.21124pt x 326.21875pt>
 File: pl.jpg Graphic file (type jpg)
 <use pl.jpg>
-Package pdftex.def Info: pl.jpg  used on input line 23.
+Package pdftex.def Info: pl.jpg  used on input line 22.
 (pdftex.def)             Requested size: 146.39133pt x 147.29982pt.
  (document.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -314,41 +314,138 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 2.
-)
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
+.
+
+(C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
 \tf@toc=\write3
 \openout3 = `document.toc'.
 
  [1
 
 {C:/Users/Mateusz Walo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Pro
-gram Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./pl.jpg>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-8.
+gram Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./pl.jpg>] [2] [3]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
+0.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [2{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [3] (document.aux)
+)
+Overfull \hbox (42.49509pt too wide) in paragraph at lines 73--74
+[]\T1/lmtt/m/n/10 bool fiftyFiftyUsed, phoneAFriendUsed, fiftyFiftyUsedGlobal, 
+phoneAFriendUsedGlobal
+ []
+
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 77.
+[4{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 118.
+
+Overfull \hbox (1.7451pt too wide) in paragraph at lines 136--136
+[]   \T1/lmtt/m/n/10 scaledImage = scaledImage.Scale(GetSize().GetWidth(), GetS
+ize().GetHeight());[] 
+ []
+
+[5] [6]
+Overfull \hbox (27.99503pt too wide) in paragraph at lines 206--206
+[]    \T1/lmtt/m/n/10 wxMessageBox(_("Nie mo»na wczyta¢ bazy pyta«"), _("Error"
+), wxOK | wxICON_ERROR);[] 
+ []
+
+
+Overfull \hbox (75.24489pt too wide) in paragraph at lines 256--256
+[]   \T1/lmtt/m/n/10 std::string correctAnswer = trimString(questions[currentQu
+estionIndex].poprawna_odpowiedz);[] 
+ []
+
+
+Overfull \hbox (6.99509pt too wide) in paragraph at lines 256--256
+[]    \T1/lmtt/m/n/10 std::string userAnswer = trimString(clickedButton->GetLab
+el().ToStdString());[] 
+ []
+
+
+Overfull \hbox (43.74498pt too wide) in paragraph at lines 256--256
+[]    \T1/lmtt/m/n/10 std::transform(userAnswer.begin(), userAnswer.end(), user
+Answer.begin(), ::tolower);[] 
+ []
+
+
+Overfull \hbox (90.99484pt too wide) in paragraph at lines 256--256
+[]    \T1/lmtt/m/n/10 std::transform(correctAnswer.begin(), correctAnswer.end()
+, correctAnswer.begin(), ::tolower);[] 
+ []
+
+
+Overfull \hbox (300.99423pt too wide) in paragraph at lines 256--256
+[]     \T1/lmtt/m/n/10 wxMessageBox(wxString::Format(_("Brawo poprawna odpowied
+¹! Masz teraz %d punktów."), points), _("Info"), wxOK | wxICON_INFORMATION);[] 
+
+ []
+
+[7]
+Overfull \hbox (48.99496pt too wide) in paragraph at lines 256--256
+[]      \T1/lmtt/m/n/10 wxMessageBox(_("Gratulacje! Wygraªe± gr¦!"), _("Info"),
+ wxOK | wxICON_INFORMATION);[] 
+ []
+
+
+Overfull \hbox (421.74388pt too wide) in paragraph at lines 256--256
+[]     \T1/lmtt/m/n/10 wxMessageBox(wxString::Format(_("Zªa odpowied¹. Przegryw
+asz :( Zaczynamy od pocz¡tku. Masz teraz %d punktów."), points), _("Info"), wxO
+K | wxICON_WARNING);[] 
+ []
+
+
+Overfull \hbox (159.24464pt too wide) in paragraph at lines 301--301
+[]    \T1/lmtt/m/n/10 wxMessageBox(_("U»yªe± ju» kóª ratunkowych! Graj dalej be
+z nich!"), _("Info"), wxOK | wxICON_INFORMATION);[] 
+ []
+
+
+Overfull \hbox (12.24507pt too wide) in paragraph at lines 301--301
+[]   \T1/lmtt/m/n/10 std::string correctAnswer = questions[currentQuestionIndex
+].poprawna_odpowiedz;[] 
+ []
+
+[8]
+Overfull \hbox (159.24464pt too wide) in paragraph at lines 344--344
+[]    \T1/lmtt/m/n/10 wxMessageBox(_("U»yªe± ju» kóª ratunkowych! Graj dalej be
+z nich!"), _("Info"), wxOK | wxICON_INFORMATION);[] 
+ []
+
+
+Overfull \hbox (12.24507pt too wide) in paragraph at lines 344--344
+[]   \T1/lmtt/m/n/10 std::string correctAnswer = questions[currentQuestionIndex
+].poprawna_odpowiedz;[] 
+ []
+
+[9] [10] [11] [12] [13] (document.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3898 strings out of 474542
- 63853 string characters out of 5754238
- 1933978 words of memory out of 5000000
- 26077 multiletter control sequences out of 15000+600000
- 606265 words of font info for 65 fonts, out of 8000000 for 9000
+ 3952 strings out of 474542
+ 64760 string characters out of 5754238
+ 1935978 words of memory out of 5000000
+ 26126 multiletter control sequences out of 15000+600000
+ 607220 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,524b,355s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,534b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/M
 iKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
 lic/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/P
 rogram Files/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fo
-nts/type1/public/lm/lmri10.pfb>
-Output written on document.pdf (3 pages, 199330 bytes).
+nts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/l
+mtk10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
+Output written on document.pdf (13 pages, 281938 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
