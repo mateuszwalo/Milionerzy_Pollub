@@ -7,7 +7,7 @@
 #include <random>
 #include <vector>
 #include <string>
-#include <nlohmann/json.hpp>
+#include "include/json.hpp"
 #include <algorithm>
 
 #undef _

@@ -9,7 +9,7 @@
 
 #ifndef PROJEKTAPP_H
 #define PROJEKTAPP_H
-#include <nlohmann/json.hpp>
+#include "include/json.hpp"
 #include <string>
 #include <vector>
 #include <wx/app.h>
