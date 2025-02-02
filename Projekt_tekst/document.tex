@@ -3,7 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage[a4paper]{geometry}
-\usepackage[polish]{babel}
+\usepackage{polski}
 \usepackage{tocloft}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
@@ -419,10 +419,6 @@
 			}
 		\end{verbatim}
 	\end{itemize}
-	
-	\section{Podsumowanie}
-	Aplikacja \emph{Milionerzy} jest w pełni funkcjonalnym quizem inspirowanym popularnym teleturniejem. Dzięki możliwości wyboru poziomu trudności oraz użyciu kół ratunkowych, gra oferuje różnorodne wyzwania dla użytkowników. Implementacja opiera się na bibliotece WX Widgets, co pozwala na tworzenie interaktywnych i atrakcyjnych wizualnie interfejsów użytkownika. Kod jest dobrze zorganizowany i modularny, co ułatwia jego modyfikację i rozszerzenie o nowe funkcje w przyszłości.
-	
 \newpage
 \section{Podział obowiązków}
 
@@ -497,6 +493,65 @@
 		\item Organizacja struktury katalogów projektu, w tym zasobów graficznych i plików konfiguracyjnych.
 	\end{itemize}
 \end{itemize}
-	
-	
+
+\section{Podsumowanie}
+Aplikacja \emph{Milionerzy} jest w pełni funkcjonalnym quizem inspirowanym popularnym teleturniejem. Dzięki możliwości wyboru poziomu trudności oraz użyciu kół ratunkowych, gra oferuje różnorodne wyzwania dla użytkowników. Implementacja opiera się na bibliotece WX Widgets, co pozwala na tworzenie interaktywnych i atrakcyjnych wizualnie interfejsów użytkownika. Kod jest dobrze zorganizowany i modularny, co ułatwia jego modyfikację i rozszerzenie o nowe funkcje w przyszłości.
+
+\section{Interfejs graficzny}
+
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{1.png}
+	\caption{Wybór poziomu trudności}
+	\label{rys:1}
+	Jak widać na rysunku \ref{rys:1}, jest to wstępne okienko pojawiające się przed rozpoczęciem gry, aby dostosować poziom trudności, tym samym wybór bazy pytań. Gracz ma możliwość wyboru między różnymi poziomami trudności, co wpływa na zestaw pytań, z którymi będzie musiał się zmierzyć podczas gry. Opcje te pozwalają na dostosowanie gry do umiejętności i preferencji gracza, co zwiększa jej atrakcyjność i dostosowanie do indywidualnych potrzeb.
+\end{figure}
+
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{2.png}
+	\caption{Interfejs startowy}
+	\label{rys:2}
+	Rysunek \ref{rys:2} przedstawia okno po uruchomieniu aplikacji w momencie startowym po wybraniu poziomu trudności. W tym wypadku został wybrany poziom trudności "łatwy", co powoduje, że widzimy skutek działania funkcji rysowania tła i losowania pytań.
+\end{figure}
+
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{3.png}
+	\caption{Koło ratunkowe telefon do przyjaciela}
+	\label{rys:3}
+	Na rysunku \ref{rys:3} pokazano sytuację, w której gracz używa koła ratunkowego "telefon do przyjaciela" w celu uzyskania pomocy przy odpowiedzi na pytanie. Jest to jedno z dostępnych kół ratunkowych, które gracz może wykorzystać w trudnych momentach gry. Wybór tego koła ratunkowego pozwala "skontaktować się z wirtualnym przyjacielem", który raz w całej grze może nam wskazać poprawną odpowiedź.
+\end{figure}
+
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{4.png}
+	\caption{Wybranie poprawnej odpowiedzi}
+	\label{rys:4}
+	Rysunek \ref{rys:4} przedstawia moment, w którym gracz wybiera poprawną odpowiedź na zadane pytanie. Interfejs wyraźnie wskazuje, która odpowiedź została wybrana, a także informuje gracza o jej poprawności. Poprawne odpowiedzi są nagradzane i gracz zyskuje 100 pkt, co motywuje gracza do dalszej rozgrywki i zwiększa jego zaangażowanie w grę.
+\end{figure}
+
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{5.png}
+	\caption{Koło ratunkowe 50/50}
+	\label{rys:5}
+	Na rysunku \ref{rys:5} widać użycie koła ratunkowego 50/50, które usuwa dwie błędne odpowiedzi, pozostawiając jedną poprawną i jedną niepoprawną odpowiedź. Jest to koło które znacząco zwiększa szanse gracza na udzielenie poprawnej odpowiedzi, zwłaszcza w trudniejszych pytaniach, gdzie pewność odpowiedzi jest niska. Te koło również możemy użyć tylko raz w ciągu całej gry.
+\end{figure}
+
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{6.png}
+	\caption{Komunikat o złej odpowiedzi}
+	\label{rys:6}
+	Rysunek \ref{rys:6} przedstawia komunikat, który pojawia się, gdy gracz udzieli niepoprawnej odpowiedzi na pytanie. Interfejs informuje gracza o błędnej odpowiedzi i przekazuje odpowiednie informacje zwrotne, o resetwaniu liczny punktów do 0 i ropzpoczęcie gry od początku na tym samym poziomie gry. Komunikat ten jest kluczowym elementem gry, który wpływa na doświadczenie użytkownika i jego zaangażowanie.
+\end{figure}
+
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{8.png}
+	\caption{Komunikat o użyciu kół ratunkowych}
+	\label{rys:7}
+	Rysunek \ref{rys:7} pokazuje komunikat, który informuje gracza o użyciu wszystkich dostępnych kół ratunkowych. Jest to ważna informacja, ponieważ gracz musi być świadomy, że nie może już skorzystać z dodatkowej pomocy i musi polegać wyłącznie na swojej wiedzy w dalszej części gry. Komunikat ten motywuje do ostrożniejszego podejmowania decyzji w kolejnych rundach.
+\end{figure}
+
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{9.png}
+	\caption{Komunikat o wygranej}
+	\label{rys:8}
+	Na rysunku \ref{rys:8} przedstawiono komunikat, który pojawia się, gdy gracz wygra grę tzn. uzyska 1000 pkt, udzielając poprawnej odpowiedzi na ostatnie pytanie. Komunikat ten informuje o zakończeniu gry i gratuluje graczowi osiągnięcia sukcesu. Jest to kluczowy moment gry, który nagradza gracza za jego wysiłek i wiedzę, zapewniając satysfakcję i pozytywne wrażenia z rozgrywki.
+\end{figure}
 \end{document}
