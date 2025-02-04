@@ -7,7 +7,8 @@
 \usepackage{tocloft}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
-
+\usepackage{float}
+\usepackage{hyperref}
 % opening
 \title{Milionerzy - Projekt Politechnika Lubelska}
 \author{Mateusz Walo, Igor Kozak, Oskar Wilkos}
@@ -39,7 +40,73 @@
 	
 	\newpage
 	
-	% Sekcja 2
+\section{Interfejs graficzny}
+	
+\begin{figure}[H]
+	\centering
+	\includegraphics[]{1.png}
+	\caption{Wybór poziomu trudności}
+	\label{rys:1}
+\end{figure}
+	
+Jak widać na rysunku \ref{rys:1}, użytkownikowi prezentowane jest pierwsze okno aplikacji, w którym dokonuje się wyboru poziomu trudności gry. Interfejs został zaprojektowany tak, aby już na samym początku użytkownik mógł łatwo określić, jak wymagające mają być zadania, z jakimi będzie miał do czynienia. Każdy poziom trudności wiąże się z innym zestawem pytań, co umożliwia indywidualne dostosowanie rozgrywki do umiejętności gracza. Dzięki temu system wyboru poziomu, gra staje się bardziej dostępna – zarówno dla osób szukających mniej wymagającej zabawy, jak i dla tych, którzy pragną zmierzyć się z poważnym wyzwaniem.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.3]{2.png}
+		\caption{Interfejs startowy}
+		\label{rys:2}
+	\end{figure}
+Rysunek \ref{rys:2} ilustruje główne okno aplikacji, które pojawia się po wybraniu przez użytkownika odpowiedniego poziomu trudności. W tym widoku widoczne są cztery przyciski odpowiadające możliwym opcjom odpowiedzi, a także obszar z treścią aktualnie zadawanego pytania. Dodatkowo interfejs zawiera dwa elementy reprezentujące koła ratunkowe, które można wykorzystać w krytycznych momentach rozgrywki. Okno to nie tylko prezentuje estetyczny wygląd dzięki funkcji rysowania tła zaimplementowanej w metodzie \texttt{OnPaint}, ale również dynamicznie ładuje i wyświetla pytania poprzez funkcję \texttt{DisplayQuestion}. Dzięki temu rozwiązaniu gra zyskuje na interaktywności i zapewnia płynne przechodzenie między kolejnymi pytaniami. Dodatkowo, dobrze dobrane elementy graficzne i przejrzysty układ pozwalają na intuicyjne poruszanie się po aplikacji, co pozytywnie wpływa na pierwsze wrażenie z użytkowania aplikacji.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.3]{3.png}
+		\caption{Koło ratunkowe telefon do przyjaciela}
+		\label{rys:3}
+	\end{figure}
+	Na rysunku \ref{rys:3} przedstawiono moment, w którym użytkownik decyduje się na skorzystanie z koła ratunkowego „Telefon do przyjaciela”. Po aktywacji tego elementu interfejs natychmiast reaguje, usuwając trzy niepoprawne odpowiedzi, co wyraźnie podkreśla istotę udzielanej pomocy. Dzięki takiemu rozwiązaniu, gracz może w krytycznej chwili otrzymać wskazówkę, która umożliwia mu podjęcie lepszej decyzji. Mechanizm ten został zaprojektowany z myślą o zwiększeniu interaktywności gry oraz jej atrakcyjności – możliwość skorzystania z „telefonu” dodaje element strategii, ponieważ gracz musi rozważnie wykorzystać tę szansę, wiedząc, że jest ona dostępna tylko raz w trakcie całej rozgrywki. Wizualne przedstawienie koła ratunkowego oraz natychmiastowa reakcja interfejsu podkreślają dynamikę i intuicyjność działania aplikacji.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.3]{4.png}
+		\caption{Wybranie poprawnej odpowiedzi}
+		\label{rys:4}
+	\end{figure}
+Rysunek \ref{rys:4} ukazuje kluczowy moment gry – wybór odpowiedzi przez użytkownika, która okazuje się być prawidłowa. Interfejs graficzny wyraźnie podkreśla zaznaczenie wybranej opcji oraz natychmiast informuje gracza o słuszności jego decyzji. Dodatkowo, system punktacji w czasie rzeczywistym dodaje 100 punktów za każdą poprawną odpowiedź, co jest wizualnie komunikowane w formie okienka informacyjnego. Taki mechanizm nagradzania pozytywnie wpływa na motywację gracza, zachęcając go do kontynuacji rozgrywki. Dbałość o detale w interfejsie – takie jak wyraźne podświetlenie wybranej odpowiedzi i responsywność komunikatów – sprawia, że gra jest nie tylko interaktywna, ale również przyjazna dla użytkownika, co zwiększa ogólne zaangażowanie i satysfakcję z rozgrywki.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.3]{5.png}
+		\caption{Koło ratunkowe 50/50}
+		\label{rys:5}
+	\end{figure}
+Na rysunku \ref{rys:5} widać zastosowanie drugiego z dostępnych kół ratunkowych – funkcji 50/50. Po aktywacji tej opcji, interfejs natychmiast usuwa dwie niepoprawne odpowiedzi, pozostawiając użytkownikowi jedynie jedną poprawną oraz jedną potencjalnie mylącą odpowiedź. Takie rozwiązanie znacząco zwiększa szansę na udzielenie właściwej odpowiedzi, szczególnie w sytuacjach, gdy gracz nie jest pewien swojej wiedzy. Wizualna reprezentacja efektu działania koła 50/50 jest intuicyjna – zmiana etykiet przycisków jasno komunikuje, które opcje zostały wyeliminowane. Ponadto, ograniczenie użycia tego koła do jednego razu na grę dodaje strategicznego wymiaru, zmuszając gracza do rozważnego podejmowania decyzji o jego użyciu.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.3]{6.png}
+		\caption{Komunikat o złej odpowiedzi}
+		\label{rys:6}
+	\end{figure}
+Rysunek \ref{rys:6} przedstawia sytuację, w której gracz udzielił błędnej odpowiedzi. Interfejs aplikacji reaguje natychmiast, wyświetlając komunikat ostrzegawczy, który informuje użytkownika o popełnionym błędzie. W wyniku niepoprawnej decyzji, liczba zdobytych punktów zostaje zresetowana do zera, a gra rozpoczyna się od nowa – ale na tym samym, wybranym wcześniej poziomie trudności. Takie rozwiązanie ma na celu nie tylko zwiększenie realizmu gry, ale również zachęcenie użytkownika do ponownej analizy i lepszego przygotowania się do kolejnych rund. Jasny i czytelny komunikat sprawia, że gracz od razu wie, co poszło nie tak, a sam fakt resetu punktów motywuje do bardziej przemyślanych wyborów w przyszłości.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.3]{8.png}
+		\caption{Komunikat o użyciu kół ratunkowych}
+		\label{rys:7}
+	\end{figure}
+Na rysunku \ref{rys:7} widzimy komunikat, który informuje gracza, iż wszystkie dostępne koła ratunkowe zostały już wykorzystane. Taki komunikat jest niezwykle ważny, ponieważ pełni funkcję informacyjną – użytkownik zostaje ostrzeżony, że nie będzie miał już możliwości skorzystania z dodatkowej pomocy przy rozwiązywaniu pytań. Dzięki temu gracz jest zmuszony do polegania wyłącznie na swojej wiedzy i intuicji w kolejnych etapach gry. Przejrzystość komunikatu oraz jego strategiczne umiejscowienie w interfejsie podkreślają dbałość o szczegóły, co dodatkowo zwiększa realizm i emocjonujący charakter rozgrywki. Informacja ta ma również walor motywacyjny – zmusza do bardziej przemyślanych decyzji, co wpływa na ogólne doświadczenie użytkownika.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.3]{9.png}
+		\caption{Komunikat o wygranej}
+		\label{rys:8}
+	\end{figure}
+Rysunek \ref{rys:8} przedstawia finalny moment gry, kiedy gracz osiąga 1000 punktów dzięki serii poprawnych odpowiedzi. Na ekranie pojawia się komunikat gratulacyjny, który nie tylko informuje o zwycięstwie, ale także podkreśla satysfakcję i sukces osiągnięty przez użytkownika. Taki efekt końcowy jest kluczowy, gdyż stanowi nagrodę za wysiłek włożony w grę, a jednocześnie motywuje do powtórzenia rozgrywki lub podejmowania nowych wyzwań. Wizualne elementy komunikatu, takie jak kolory, czcionki i układ, zostały starannie dobrane, aby podkreślić wyjątkowość tego momentu. Dzięki temu użytkownik doświadcza pozytywnych emocji, co wpływa na ogólną atrakcyjność aplikacji i zwiększa jej wartość rozrywkową.
+
 	\section{Struktura kodu}
 	
 	\subsection{Nagłówki i biblioteki}
@@ -47,32 +114,32 @@
 	Kod rozpoczyna się od dołączenia wymaganych bibliotek oraz plików nagłówkowych. Główne użyte elementy to:
 	
 	\begin{itemize}
-		\item \texttt{\#include "ProjektMain.h"} - Plik nagłówkowy projektu.
-		\item \texttt{\#include <wx/msgdlg.h>} - Biblioteka WX Widgets do obsługi okien dialogowych.
-		\item \texttt{\#include <nlohmann/json.hpp>} - Biblioteka JSON do obsługi plików będących bazami pytań.
-		\item \texttt{\#include <random>} - Obsługa generowania losowych wartości.
-		\item \texttt{\#include <algorithm>} - Obsługa metod wykorzystanych do losowania pytań.
+	\item \texttt{\#include "ProjektMain.h"} - Plik nagłówkowy projektu, który zawiera deklaracje klas, funkcji oraz zmiennych specyficznych dla tego projektu. Dzięki temu możliwe jest oddzielenie interfejsu od implementacji oraz łatwiejsze zarządzanie kodem.
+	\item \texttt{\#include <wx/msgdlg.h>} - Biblioteka WX Widgets do obsługi okien dialogowych. Umożliwia wyświetlanie komunikatów, ostrzeżeń i informacji, co jest kluczowe dla interaktywności aplikacji oraz komunikacji z użytkownikiem.
+	\item \texttt{\#include <nlohmann/json.hpp>} - Biblioteka JSON, która umożliwia łatwe wczytywanie i przetwarzanie danych zapisanych w formacie JSON. Dzięki niej aplikacja może dynamicznie ładować bazę pytań z plików, co zwiększa elastyczność i skalowalność projektu.
+	\item \texttt{\#include <random>} - Biblioteka służąca do generowania losowych wartości. Jest wykorzystywana do losowania pytań oraz do mieszania kolejności odpowiedzi, co wprowadza element nieprzewidywalności i urozmaicenia w rozgrywce.
+	\item \texttt{\#include <algorithm>} - Biblioteka zawierająca metody i algorytmy, które są używane m.in. do losowego tasowania elementów, co jest kluczowe przy losowym wybieraniu pytań i odpowiedzi.
 	\end{itemize}
 	
 	Struktura \texttt{Question} przechowuje dane pojedynczego pytania quizowego:
 	
-	\begin{itemize}
-		\item \texttt{std::string tresc} - Treść pytania.
-		\item \texttt{std::vector<std::string> odpowiedzi} - Lista możliwych odpowiedzi.
-		\item \texttt{std::string poprawna\_odpowiedz} - Poprawna odpowiedź.
-	\end{itemize}
+\begin{itemize}
+	\item \texttt{std::string tresc} - Zawiera treść pytania, którą użytkownik widzi na ekranie.
+	\item \texttt{std::vector<std::string> odpowiedzi} - Lista możliwych odpowiedzi, z której użytkownik wybiera jedną.
+	\item \texttt{std::string poprawna\_odpowiedz} - Przechowuje poprawną odpowiedź, co jest wykorzystywane przy weryfikacji odpowiedzi udzielonej przez gracza.
+\end{itemize}
 	
 	\subsection{Zmienne globalne}
 	
 	Następnie zdefiniowane są zmienne globalne używane w aplikacji:
 	
-	\begin{itemize}
-		\item \texttt{std::vector<Question> questions} - Lista wszystkich pytań.
-		\item \texttt{std::vector<bool> askedQuestions} - Informacja o tym, które pytania zostały już zadane.
-		\item \texttt{size\_t currentQuestionIndex} - Indeks bieżącego pytania.
-		\item \texttt{bool fiftyFiftyUsed, phoneAFriendUsed, fiftyFiftyUsedGlobal, phoneAFriendUsedGlobal} - Flagi użycia kół ratunkowych.
-		\item \texttt{int points} - Aktualna liczba punktów użytkownika.
-	\end{itemize}
+\begin{itemize}
+	\item \texttt{std::vector<Question> questions} - Lista wszystkich pytań dostępnych w bazie. Pozwala na dynamiczne dodawanie lub usuwanie pytań, co ułatwia modyfikację zawartości quizu.
+	\item \texttt{std::vector<bool> askedQuestions} - Tablica logiczna, która śledzi, które pytania zostały już zadane. Dzięki temu mechanizmowi unika się powtarzania pytań w jednej sesji gry.
+	\item \texttt{size\_t currentQuestionIndex} - Zmienna przechowująca indeks aktualnie wyświetlanego pytania. Umożliwia łatwe odwoływanie się do bieżącego elementu z listy pytań.
+	\item \texttt{bool fiftyFiftyUsed, phoneAFriendUsed, fiftyFiftyUsedGlobal, phoneAFriendUsedGlobal} - Flagi służące do monitorowania użycia kół ratunkowych. Rozróżnienie na lokalne i globalne flagi pozwala na precyzyjne kontrolowanie dostępności opcji pomocy w trakcie rozgrywki.
+	\item \texttt{int points} - Zmienna przechowująca aktualną liczbę punktów zdobytych przez użytkownika. Mechanizm punktacji jest kluczowy dla oceny postępów gracza oraz określania warunków zwycięstwa.
+\end{itemize}
 	
 	\subsection{Funkcja \texttt{wxbuildinfo}}
 	
@@ -107,17 +174,24 @@
 		}
 	\end{verbatim}
 	
+	
 	\subsection{Klasa \texttt{ProjektDialog}}
 	
-	Klasa \texttt{ProjektDialog} reprezentuje główne okno dialogowe aplikacji:
+	Klasa \texttt{ProjektDialog} reprezentuje główne okno dialogowe aplikacji. To w niej zawarte są wszystkie elementy interfejsu użytkownika oraz logika sterująca rozgrywką.
 	
 	\subsubsection{Konstruktor i destruktor}
 	
-	Konstruktor inicjalizuje interfejs użytkownika oraz ładuje pytania na podstawie wybranego poziomu trudności. Destruktor jest pusty i nie zawiera żadnej dodatkowej logiki.
+	Konstruktor klasy \texttt{ProjektDialog} odpowiada za inicjalizację interfejsu użytkownika oraz załadowanie pytań w oparciu o wybrany przez użytkownika poziom trudności. Inicjalizacja ta obejmuje ustawienie początkowych wartości zmiennych, konfigurację przycisków, pól tekstowych oraz innych elementów interfejsu. Destruktor natomiast jest pusty, co oznacza, że nie wykonuje dodatkowych operacji przy zamykaniu okna – wszystkie zasoby są zarządzane automatycznie lub przez system.
 	
 	\subsubsection{Metoda \texttt{OnPaint}}
 	
-	Metoda \texttt{OnPaint} odpowiada za rysowanie tła okna:
+	Metoda \texttt{OnPaint} odpowiada za rysowanie tła okna dialogowego. Wykorzystuje obiekt klasy \texttt{wxPaintDC}, który umożliwia rysowanie bezpośrednio na obszarze okna. Kluczowe etapy tej metody to:
+	\begin{itemize}
+		\item Inicjalizacja obiektu \texttt{wxPaintDC}, co pozwala na wykonywanie operacji graficznych.
+		\item Wczytanie bitmapy tła z pliku (w tym przypadku \texttt{"resources/kosmos.jpg"}), co dodaje aplikacji atrakcyjny wygląd.
+		\item Konwersja bitmapy na obiekt \texttt{wxImage} i przeskalowanie jej do aktualnego rozmiaru okna, dzięki czemu tło idealnie dopasowuje się do rozmiarów interfejsu.
+		\item Rysowanie przeskalowanej bitmapy na oknie, a następnie wywołanie metody \texttt{event.Skip()}, aby umożliwić dalsze przetwarzanie zdarzenia.
+	\end{itemize}
 	
 	\begin{verbatim}
 		void ProjektDialog::OnPaint(wxPaintEvent& event)
@@ -134,11 +208,18 @@
 			event.Skip();
 		}
 	\end{verbatim}
-	
 	\subsubsection{Metoda \texttt{DisplayQuestion}}
-	
-	Metoda \texttt{DisplayQuestion} wyświetla bieżące pytanie:
-	
+
+Metoda \texttt{DisplayQuestion} jest odpowiedzialna za wyświetlenie aktualnego pytania oraz możliwych odpowiedzi na ekranie. W jej działaniu można wyróżnić kilka etapów:
+
+\begin{itemize}
+	\item Sprawdzenie, czy lista pytań nie jest pusta. Jeśli nie ma żadnych pytań, zostaje wyświetlony komunikat błędu.
+	\item Losowe wybranie pytania spośród dostępnych. Do tego celu wykorzystuje się generator liczb losowych, co pozwala na uniknięcie powtórzeń.
+	\item Oznaczenie wybranego pytania jako zadane, co zapobiega jego ponownemu wyświetleniu w trakcie jednej rozgrywki.
+	\item Losowe tasowanie kolejności odpowiedzi, aby gracz nie mógł zorientować się, która odpowiedź jest poprawna na podstawie pozycji.
+	\item Ustawienie treści pytania oraz etykiet przycisków odpowiedzi przy użyciu metod odpowiednich dla kontrolki tekstowej oraz przycisków.
+\end{itemize}
+
 	\begin{verbatim}
 		void ProjektDialog::DisplayQuestion()
 		{
@@ -173,9 +254,16 @@
 		}
 	\end{verbatim}
 	
-	\subsubsection{Metoda \texttt{LoadQuestionsFromFile}}
-	
-	Metoda \texttt{LoadQuestionsFromFile} ładuje pytania z pliku JSON. Jest to kluczowy element aplikacji, który pozwala na dynamiczne wczytywanie pytań na podstawie wybranego poziomu trudności.
+\subsubsection{Metoda \texttt{LoadQuestionsFromFile}}
+
+Metoda \texttt{LoadQuestionsFromFile} odpowiada za wczytywanie pytań z pliku JSON. Umożliwia to dynamiczne ładowanie bazy pytań w zależności od wybranego poziomu trudności. Jej działanie obejmuje:
+\begin{itemize}
+	\item Otwarcie pliku z bazą pytań przy użyciu \texttt{std::ifstream}.
+	\item Wczytanie danych z pliku do obiektu typu \texttt{json}, co ułatwia późniejsze przetwarzanie danych.
+	\item Wyczyść listę dotychczasowych pytań oraz stan zadanych pytań, aby przygotować przestrzeń na nowe dane.
+	\item Iterację przez każdy element w sekcji "pytania" w pliku JSON, utworzenie obiektu \texttt{Question} oraz dodanie go do listy pytań.
+	\item Jeśli plik nie może zostać otwarty, wyświetlenie komunikatu błędu, co informuje użytkownika o problemie z dostępem do bazy pytań.
+\end{itemize}
 	
 	\begin{verbatim}
 		void ProjektDialog::LoadQuestionsFromFile(const wxString& fileName)
@@ -204,19 +292,17 @@
 			}
 		}
 	\end{verbatim}
-	
-	Opis:
-	\begin{itemize}
-		\item Otwiera plik JSON przy użyciu \texttt{std::ifstream}.
-		\item Wczytuje dane z pliku do obiektu \texttt{json}.
-		\item Czyści istniejącą listę pytań i stan zadanych pytań.
-		\item Przechodzi przez każdy element w sekcji "pytania" pliku JSON, tworzy obiekt \texttt{Question} i dodaje go do listy pytań.
-		\item Jeśli plik nie może zostać otwarty, wyświetla komunikat błędu.
-	\end{itemize}
 	\subsubsection{Metoda \texttt{OnButtonClicked}}
-	
-	Metoda \texttt{OnButtonClicked} obsługuje kliknięcia przycisków odpowiedzi. Użytkownik wybiera odpowiedź, a metoda ta sprawdza jej poprawność.
-	
+
+Metoda \texttt{OnButtonClicked} obsługuje interakcję użytkownika z przyciskami odpowiedzi. Odpowiada za weryfikację udzielonej odpowiedzi oraz aktualizację stanu gry:
+\begin{itemize}
+	\item Pobiera identyfikator klikniętego przycisku oraz jego etykietę.
+	\item Za pomocą funkcji \texttt{trimString} usuwa zbędne białe znaki, co zapewnia poprawne porównanie tekstów.
+	\item Dokonuje porównania odpowiedzi użytkownika z poprawną odpowiedzią, przy czym ignorowana jest wielkość liter – dzięki temu system jest bardziej przyjazny.
+	\item W przypadku udzielenia poprawnej odpowiedzi, metoda zwiększa liczbę punktów oraz wyświetla komunikat potwierdzający sukces. Po osiągnięciu 1000 punktów gra informuje o zwycięstwie, resetując jednocześnie stan gry.
+	\item Jeśli odpowiedź jest błędna, liczba punktów jest resetowana do zera, a użytkownik otrzymuje odpowiedni komunikat ostrzegawczy. Dodatkowo resetowany jest stan kół ratunkowych, co umożliwia ponowne rozpoczęcie gry.
+\end{itemize}
+
 	\begin{verbatim}
 		void ProjektDialog::OnButtonClicked(wxCommandEvent& event)
 		{
@@ -255,19 +341,16 @@
 		}
 	\end{verbatim}
 	
-	Opis:
-	\begin{itemize}
-		\item Pobiera identyfikator klikniętego przycisku.
-		\item Sprawdza, czy kliknięty przycisk jest poprawny i pobiera jego etykietę.
-		\item Porównuje odpowiedź użytkownika z poprawną odpowiedzią (ignorując wielkość liter).
-		\item Jeśli odpowiedź jest poprawna, zwiększa liczbę punktów i wyświetla komunikat o sukcesie. Jeśli użytkownik osiągnie 1000 punktów, resetuje grę.
-		\item Jeśli odpowiedź jest błędna, resetuje liczbę punktów i wyświetla komunikat o błędzie. Resetuje również stan kół ratunkowych.
-	\end{itemize}
-	
 	\subsubsection{Metoda \texttt{OnFiftyFifty}}
-	
-	Metoda \texttt{OnFiftyFifty} obsługuje kliknięcie przycisku "50/50", który usuwa dwie niepoprawne odpowiedzi z ekranu.
-	
+
+Metoda \texttt{OnFiftyFifty} obsługuje aktywację koła ratunkowego 50/50, które ma na celu zwiększenie szans gracza na udzielenie poprawnej odpowiedzi poprzez eliminację dwóch błędnych opcji:
+\begin{itemize}
+	\item Na początku metoda sprawdza, czy już użyto któregokolwiek z kół ratunkowych (50/50 lub Telefon do przyjaciela). Jeśli tak, wyświetlany jest komunikat informacyjny.
+	\item Jeśli koło ratunkowe jest dostępne, ustawiane są flagi \texttt{fiftyFiftyUsed} oraz \texttt{fiftyFiftyUsedGlobal} na wartość \texttt{true}, aby zapobiec ponownemu użyciu tego wsparcia.
+	\item Metoda pobiera poprawną odpowiedź oraz tworzy listę wszystkich przycisków reprezentujących opcje odpowiedzi.
+	\item Następnie, przy użyciu pętli, wyłaniane są przyciski z niepoprawnymi odpowiedziami, które umieszczane są w osobnej liście.
+	\item Lista niepoprawnych przycisków jest tasowana przy użyciu generatora liczb losowych, a następnie losowo usuwane są etykiety dwóch z nich, co wizualnie eliminuje te opcje.
+\end{itemize}
 	\begin{verbatim}
 		void ProjektDialog::OnFiftyFifty(wxCommandEvent& event)
 		{
@@ -299,18 +382,17 @@
 			incorrectButtons[1]->SetLabel("");
 		}
 	\end{verbatim}
-	
-	Opis:
-	\begin{itemize}
-		\item Sprawdza, czy koło ratunkowe "50/50" lub "Telefon do przyjaciela" zostało już użyte.
-		\item Ustawia flagi \texttt{fiftyFiftyUsed} i \texttt{fiftyFiftyUsedGlobal} na \texttt{true}.
-		\item Pobiera poprawną odpowiedź i tworzy listę przycisków.
-		\item Tworzy listę niepoprawnych przycisków i losowo usuwa etykiety dwóch z nich.
-	\end{itemize}
-	
-	\subsubsection{Metoda \texttt{OnPhoneAFriend}}
-	
-	Metoda \texttt{OnPhoneAFriend} obsługuje kliknięcie przycisku "Telefon do przyjaciela", który usuwa trzy niepoprawne odpowiedzi z ekranu.
+\subsubsection{Metoda \texttt{OnPhoneAFriend}}
+
+Metoda \texttt{OnPhoneAFriend} obsługuje kliknięcie przycisku „Telefon do przyjaciela”, które polega na usunięciu trzech błędnych odpowiedzi z ekranu, zwiększając tym samym szansę na poprawne udzielenie odpowiedzi:
+\begin{itemize}
+	\item Metoda najpierw sprawdza, czy już użyto któregokolwiek z kół ratunkowych – jeżeli tak, wyświetlany jest odpowiedni komunikat informacyjny.
+	\item Jeżeli wsparcie jest dostępne, flagi \texttt{phoneAFriendUsed} i \texttt{phoneAFriendUsedGlobal} są ustawiane na \texttt{true}.
+	\item Pobierana jest poprawna odpowiedź, a następnie tworzona jest lista przycisków zawierająca wszystkie możliwe opcje.
+	\item Lista przycisków jest tasowana losowo, co zapobiega przewidywalności usuwania opcji.
+	\item Następnie metoda przechodzi przez przyciski i usuwa etykiety trzech niepoprawnych opcji, co wizualnie eliminuje te odpowiedzi z interfejsu.
+\end{itemize}
+
 	
 	\begin{verbatim}
 		void ProjektDialog::OnPhoneAFriend(wxCommandEvent& event)
@@ -342,18 +424,10 @@
 			}
 		}
 	\end{verbatim}
-	
-	Opis:
-	\begin{itemize}
-		\item Sprawdza, czy koło ratunkowe "Telefon do przyjaciela" lub "50/50" zostało już użyte.
-		\item Ustawia flagi \texttt{phoneAFriendUsed} i \texttt{phoneAFriendUsedGlobal} na \texttt{true}.
-		\item Pobiera poprawną odpowiedź i tworzy listę przycisków.
-		\item Losowo usuwa etykiety trzech niepoprawnych przycisków.
-	\end{itemize}
-	
-	\subsubsection{Metoda \texttt{OnQuit}}
-	
-	Metoda \texttt{OnQuit} zamyka aplikację.
+\subsubsection{Metoda \texttt{OnQuit}}
+
+Metoda \texttt{OnQuit} odpowiada za zakończenie działania aplikacji. Jej zadanie polega na zamknięciu głównego okna dialogowego, co skutkuje zakończeniem całego procesu aplikacji:
+
 	
 	\begin{verbatim}
 		void ProjektDialog::OnQuit(wxCommandEvent& event)
@@ -361,15 +435,14 @@
 			Close();
 		}
 	\end{verbatim}
-	
-	Opis:
 	\begin{itemize}
-		\item Wywołuje metodę \texttt{Close()}, która zamyka główne okno dialogowe i kończy działanie aplikacji.
-	\end{itemize}
+	\item Wywołanie metody \texttt{Close()} zamyka okno dialogowe, co jest standardowym sposobem kończenia aplikacji w oparciu o WX Widgets.
+\end{itemize}
 	
 	\subsubsection{Metoda \texttt{OnAbout}}
 	
-	Metoda \texttt{OnAbout} wyświetla informacje o aplikacji.
+Metoda \texttt{OnAbout} służy do wyświetlenia informacji o aplikacji, takich jak wersja, system operacyjny czy tryb kompilacji. Umożliwia to szybkie uzyskanie szczegółowych danych dotyczących środowiska uruchomieniowego:
+
 	
 	\begin{verbatim}
 		void ProjektDialog::OnAbout(wxCommandEvent& event)
@@ -378,16 +451,17 @@
 			wxMessageBox(msg, _("Welcome to..."));
 		}
 	\end{verbatim}
-	
-	Opis:
 	\begin{itemize}
-		\item Wywołuje funkcję \texttt{wxbuildinfo()} z argumentem \texttt{long\_f}, aby uzyskać szczegółowe informacje o kompilacji.
-		\item Wyświetla te informacje w oknie dialogowym przy użyciu \texttt{wxMessageBox()}.
+		\item Funkcja \texttt{wxbuildinfo(long\_f)} pobiera szczegółowe informacje o kompilacji, a następnie te informacje są wyświetlane w oknie dialogowym za pomocą \texttt{wxMessageBox()}.
 	\end{itemize}
 	
-	\subsection{Funkcja \texttt{main}}
+		\subsection{Funkcja \texttt{main}}
 	
-	Funkcja \texttt{main} tworzy instancję aplikacji WX Widgets i uruchamia ją.
+	Funkcja \texttt{main} jest punktem wejścia do aplikacji. Jej główne zadania to:
+	\begin{itemize}
+		\item Ustawienie instancji aplikacji WX Widgets, co jest niezbędne do zarządzania cyklem życia aplikacji.
+		\item Uruchomienie głównej pętli aplikacji przy użyciu funkcji \texttt{wxEntry()}, która kontroluje wszystkie zdarzenia w aplikacji.
+	\end{itemize}
 	
 	\begin{verbatim}
 		int main()
@@ -396,23 +470,18 @@
 			return wxEntry();
 		}
 	\end{verbatim}
-	
-	Opis:
-	\begin{itemize}
-		\item Ustawia instancję aplikacji na nowy obiekt \texttt{ProjektApp}.
-		\item Wywołuje funkcję \texttt{wxEntry()}, która uruchamia główną pętlę aplikacji WX Widgets.
-	\end{itemize}
-	
 	\subsection{Dodatkowe metody}
 	
+	Oprócz głównych metod, klasa \texttt{ProjektDialog} zawiera również metody pomocnicze, które choć puste, mogą zostać wykorzystane w przyszłości do rozszerzenia funkcjonalności aplikacji:
+	
 	\begin{itemize}
-		\item \texttt{OnInit} - Inicjalizuje dialog. Jest to metoda, która jest wywoływana podczas tworzenia okna dialogowego, ale w tym przypadku jest pusta i nie zawiera żadnej dodatkowej logiki.
+		\item \texttt{OnInit} - Metoda wywoływana podczas tworzenia okna dialogowego. Obecnie jest pusta, ale może zostać rozszerzona o dodatkowe operacje inicjalizacyjne, które powinny zostać wykonane przy starcie aplikacji.
 		\begin{verbatim}
 			void ProjektDialog::OnInit(wxInitDialogEvent& event)
 			{
 			}
 		\end{verbatim}
-		\item \texttt{OnTextCtrl1Text} - Obsługuje zmiany tekstu w polu tekstowym. Jest to metoda, która jest wywoływana, gdy zawartość pola tekstowego zostanie zmieniona, ale w tym przypadku jest pusta i nie zawiera żadnej dodatkowej logiki.
+		\item \texttt{OnTextCtrl1Text} - Metoda obsługująca zmiany tekstu w polu tekstowym. Chociaż aktualnie nie zawiera logiki, może być użyta w przyszłości do dynamicznej walidacji lub modyfikacji danych wprowadzanych przez użytkownika.
 		\begin{verbatim}
 			void ProjektDialog::OnTextCtrl1Text(wxCommandEvent& event)
 			{
@@ -497,61 +566,4 @@
 \section{Podsumowanie}
 Aplikacja \emph{Milionerzy} jest w pełni funkcjonalnym quizem inspirowanym popularnym teleturniejem. Dzięki możliwości wyboru poziomu trudności oraz użyciu kół ratunkowych, gra oferuje różnorodne wyzwania dla użytkowników. Implementacja opiera się na bibliotece WX Widgets, co pozwala na tworzenie interaktywnych i atrakcyjnych wizualnie interfejsów użytkownika. Kod jest dobrze zorganizowany i modularny, co ułatwia jego modyfikację i rozszerzenie o nowe funkcje w przyszłości.
 
-\section{Interfejs graficzny}
-
-\begin{figure}[!h]
-	\includegraphics[width=\linewidth]{1.png}
-	\caption{Wybór poziomu trudności}
-	\label{rys:1}
-	Jak widać na rysunku \ref{rys:1}, jest to wstępne okienko pojawiające się przed rozpoczęciem gry, aby dostosować poziom trudności, tym samym wybór bazy pytań. Gracz ma możliwość wyboru między różnymi poziomami trudności, co wpływa na zestaw pytań, z którymi będzie musiał się zmierzyć podczas gry. Opcje te pozwalają na dostosowanie gry do umiejętności i preferencji gracza, co zwiększa jej atrakcyjność i dostosowanie do indywidualnych potrzeb.
-\end{figure}
-
-\begin{figure}[!h]
-	\includegraphics[width=\linewidth]{2.png}
-	\caption{Interfejs startowy}
-	\label{rys:2}
-	Rysunek \ref{rys:2} przedstawia okno po uruchomieniu aplikacji w momencie startowym po wybraniu poziomu trudności. W tym wypadku został wybrany poziom trudności "łatwy", co powoduje, że widzimy skutek działania funkcji rysowania tła i losowania pytań.
-\end{figure}
-
-\begin{figure}[!h]
-	\includegraphics[width=\linewidth]{3.png}
-	\caption{Koło ratunkowe telefon do przyjaciela}
-	\label{rys:3}
-	Na rysunku \ref{rys:3} pokazano sytuację, w której gracz używa koła ratunkowego "telefon do przyjaciela" w celu uzyskania pomocy przy odpowiedzi na pytanie. Jest to jedno z dostępnych kół ratunkowych, które gracz może wykorzystać w trudnych momentach gry. Wybór tego koła ratunkowego pozwala "skontaktować się z wirtualnym przyjacielem", który raz w całej grze może nam wskazać poprawną odpowiedź.
-\end{figure}
-
-\begin{figure}[!h]
-	\includegraphics[width=\linewidth]{4.png}
-	\caption{Wybranie poprawnej odpowiedzi}
-	\label{rys:4}
-	Rysunek \ref{rys:4} przedstawia moment, w którym gracz wybiera poprawną odpowiedź na zadane pytanie. Interfejs wyraźnie wskazuje, która odpowiedź została wybrana, a także informuje gracza o jej poprawności. Poprawne odpowiedzi są nagradzane i gracz zyskuje 100 pkt, co motywuje gracza do dalszej rozgrywki i zwiększa jego zaangażowanie w grę.
-\end{figure}
-
-\begin{figure}[!h]
-	\includegraphics[width=\linewidth]{5.png}
-	\caption{Koło ratunkowe 50/50}
-	\label{rys:5}
-	Na rysunku \ref{rys:5} widać użycie koła ratunkowego 50/50, które usuwa dwie błędne odpowiedzi, pozostawiając jedną poprawną i jedną niepoprawną odpowiedź. Jest to koło które znacząco zwiększa szanse gracza na udzielenie poprawnej odpowiedzi, zwłaszcza w trudniejszych pytaniach, gdzie pewność odpowiedzi jest niska. Te koło również możemy użyć tylko raz w ciągu całej gry.
-\end{figure}
-
-\begin{figure}[!h]
-	\includegraphics[width=\linewidth]{6.png}
-	\caption{Komunikat o złej odpowiedzi}
-	\label{rys:6}
-	Rysunek \ref{rys:6} przedstawia komunikat, który pojawia się, gdy gracz udzieli niepoprawnej odpowiedzi na pytanie. Interfejs informuje gracza o błędnej odpowiedzi i przekazuje odpowiednie informacje zwrotne, o resetwaniu liczny punktów do 0 i ropzpoczęcie gry od początku na tym samym poziomie gry. Komunikat ten jest kluczowym elementem gry, który wpływa na doświadczenie użytkownika i jego zaangażowanie.
-\end{figure}
-
-\begin{figure}[!h]
-	\includegraphics[width=\linewidth]{8.png}
-	\caption{Komunikat o użyciu kół ratunkowych}
-	\label{rys:7}
-	Rysunek \ref{rys:7} pokazuje komunikat, który informuje gracza o użyciu wszystkich dostępnych kół ratunkowych. Jest to ważna informacja, ponieważ gracz musi być świadomy, że nie może już skorzystać z dodatkowej pomocy i musi polegać wyłącznie na swojej wiedzy w dalszej części gry. Komunikat ten motywuje do ostrożniejszego podejmowania decyzji w kolejnych rundach.
-\end{figure}
-
-\begin{figure}[!h]
-	\includegraphics[width=\linewidth]{9.png}
-	\caption{Komunikat o wygranej}
-	\label{rys:8}
-	Na rysunku \ref{rys:8} przedstawiono komunikat, który pojawia się, gdy gracz wygra grę tzn. uzyska 1000 pkt, udzielając poprawnej odpowiedzi na ostatnie pytanie. Komunikat ten informuje o zakończeniu gry i gratuluje graczowi osiągnięcia sukcesu. Jest to kluczowy moment gry, który nagradza gracza za jego wysiłek i wiedzę, zapewniając satysfakcję i pozytywne wrażenia z rozgrywki.
-\end{figure}
 \end{document}

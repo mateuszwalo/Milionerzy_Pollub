@@ -1,23 +1,23 @@
-\contentsline {section}{\numberline {1}Ogólny opis aplikacji}{3}{}%
-\contentsline {section}{\numberline {2}Struktura kodu}{4}{}%
-\contentsline {subsection}{\numberline {2.1}Nagłówki i biblioteki}{4}{}%
-\contentsline {subsection}{\numberline {2.2}Zmienne globalne}{4}{}%
-\contentsline {subsection}{\numberline {2.3}Funkcja \texttt {wxbuildinfo}}{4}{}%
-\contentsline {subsection}{\numberline {2.4}Klasa \texttt {ProjektDialog}}{5}{}%
-\contentsline {subsubsection}{\numberline {2.4.1}Konstruktor i destruktor}{5}{}%
-\contentsline {subsubsection}{\numberline {2.4.2}Metoda \texttt {OnPaint}}{5}{}%
-\contentsline {subsubsection}{\numberline {2.4.3}Metoda \texttt {DisplayQuestion}}{6}{}%
-\contentsline {subsubsection}{\numberline {2.4.4}Metoda \texttt {LoadQuestionsFromFile}}{6}{}%
-\contentsline {subsubsection}{\numberline {2.4.5}Metoda \texttt {OnButtonClicked}}{7}{}%
-\contentsline {subsubsection}{\numberline {2.4.6}Metoda \texttt {OnFiftyFifty}}{8}{}%
-\contentsline {subsubsection}{\numberline {2.4.7}Metoda \texttt {OnPhoneAFriend}}{9}{}%
-\contentsline {subsubsection}{\numberline {2.4.8}Metoda \texttt {OnQuit}}{10}{}%
-\contentsline {subsubsection}{\numberline {2.4.9}Metoda \texttt {OnAbout}}{10}{}%
-\contentsline {subsection}{\numberline {2.5}Funkcja \texttt {main}}{11}{}%
-\contentsline {subsection}{\numberline {2.6}Dodatkowe metody}{11}{}%
-\contentsline {section}{\numberline {3}Podział obowiązków}{12}{}%
-\contentsline {subsection}{\numberline {3.1}Mateusz Walo}{12}{}%
-\contentsline {subsection}{\numberline {3.2}Igor Kozak}{12}{}%
-\contentsline {subsection}{\numberline {3.3}Oskar Wilkos}{13}{}%
-\contentsline {section}{\numberline {4}Podsumowanie}{13}{}%
-\contentsline {section}{\numberline {5}Interfejs graficzny}{13}{}%
+\contentsline {section}{\numberline {1}Ogólny opis aplikacji}{3}{section.1}%
+\contentsline {section}{\numberline {2}Interfejs graficzny}{4}{section.2}%
+\contentsline {section}{\numberline {3}Struktura kodu}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Nagłówki i biblioteki}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Zmienne globalne}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Funkcja \texttt {wxbuildinfo}}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Klasa \texttt {ProjektDialog}}{9}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Konstruktor i destruktor}{10}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Metoda \texttt {OnPaint}}{10}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Metoda \texttt {DisplayQuestion}}{10}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}Metoda \texttt {LoadQuestionsFromFile}}{11}{subsubsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.5}Metoda \texttt {OnButtonClicked}}{12}{subsubsection.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.4.6}Metoda \texttt {OnFiftyFifty}}{13}{subsubsection.3.4.6}%
+\contentsline {subsubsection}{\numberline {3.4.7}Metoda \texttt {OnPhoneAFriend}}{14}{subsubsection.3.4.7}%
+\contentsline {subsubsection}{\numberline {3.4.8}Metoda \texttt {OnQuit}}{15}{subsubsection.3.4.8}%
+\contentsline {subsubsection}{\numberline {3.4.9}Metoda \texttt {OnAbout}}{16}{subsubsection.3.4.9}%
+\contentsline {subsection}{\numberline {3.5}Funkcja \texttt {main}}{16}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Dodatkowe metody}{16}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Podział obowiązków}{18}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Mateusz Walo}{18}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Igor Kozak}{18}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Oskar Wilkos}{19}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Podsumowanie}{19}{section.5}%
